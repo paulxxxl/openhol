@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<modification>
+<name>callme_1click</name>
+<code>callme_1click</code>
+<desc>callme_1click.ocmod.xml</desc>
+<version>1.0</version>
+<author>My2You</author>
+<link>My2You.ru</link>
+
+<file path="catalog/view/theme/*/template/product/*.tpl,catalog/view/theme/*/template/module/*.tpl">
+	<operation>
+		<search><![CDATA[
+			<button type="button" data-toggle="tooltip" title="<?php echo $button_wishlist; ?>" onclick="wishlist.add('<?php echo $product['product_id']; ?>');"><i class="fa fa-heart"></i></button>
+		]]></search>
+		<add position="before"><![CDATA[
+		<button type="button" data-toggle="tooltip" title="Быстрый заказ" class= "callme" data-product_id = <?php echo $product['product_id']; ?>><i class="fa fa-shopping-cart"></i></button>
+		]]></add>
+	</operation>
+</file>
+
+ <file path="catalog/view/theme/*/template/product/product.tpl">
+	<operation>
+		<search><![CDATA[
+			<button type="button" id="button-cart" data-loading-text="<?php echo $text_loading; ?>" class="btn btn-primary btn-lg btn-block"><?php echo $button_cart; ?></button>
+		]]></search>
+		<add position="after"><![CDATA[
+		<button type="button" id="button-cart" data-loading-text="<?php echo $text_loading; ?>" data-product_id = <?php echo $product_id; ?> class="btn btn-primary btn-lg btn-block callme">Быстрый заказ</button>
+		]]></add>
+	</operation>
+</file>
+ 
+ 
+  
+</modification>

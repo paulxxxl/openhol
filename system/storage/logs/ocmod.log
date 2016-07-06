@@ -1,0 +1,2406 @@
+2016-07-04 15:32:51 - MOD: Modification Default
+FILE: system/engine/action.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 39
+FILE: system/engine/loader.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 20
+LINE: 59
+LINE: 80
+LINE: 99
+FILE: system/library/config.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 23
+FILE: system/library/language.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 25
+LINE: 31
+----------------------------------------------------------------
+MOD: Google Feed Sitemap Fix
+FILE: catalog/controller/feed/google_sitemap.php
+CODE: $this->model_tool_image->resize($product['image'], $this->config->get('config_image_popup_width'), $this->config->get('config_image_popup_height'))
+LINE: 19
+CODE: '<image:caption>' . $product['name'] . '</image:caption>'
+LINE: 20
+CODE: '<image:title>' . $product['name'] . '</image:title>';
+LINE: 21
+----------------------------------------------------------------
+2016-07-05 15:43:58 - MOD: Modification Default
+FILE: system/engine/action.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 39
+FILE: system/engine/loader.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 20
+LINE: 59
+LINE: 80
+LINE: 99
+FILE: system/library/config.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 23
+FILE: system/library/language.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 25
+LINE: 31
+----------------------------------------------------------------
+MOD: Google Feed Sitemap Fix
+FILE: catalog/controller/feed/google_sitemap.php
+CODE: $this->model_tool_image->resize($product['image'], $this->config->get('config_image_popup_width'), $this->config->get('config_image_popup_height'))
+LINE: 19
+CODE: '<image:caption>' . $product['name'] . '</image:caption>'
+LINE: 20
+CODE: '<image:title>' . $product['name'] . '</image:title>';
+LINE: 21
+----------------------------------------------------------------
+2016-07-06 10:33:21 - MOD: Modification Default
+FILE: system/engine/action.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 39
+FILE: system/engine/loader.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 20
+LINE: 59
+LINE: 80
+LINE: 99
+FILE: system/library/config.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 23
+FILE: system/library/language.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 25
+LINE: 31
+----------------------------------------------------------------
+MOD: 3rd Tier Category Module
+FILE: catalog/controller/module/category.php
+CODE: $children_data[] = array
+LINE: 56
+CODE: 'name' => $child['name'] . ($this->config->get('config_product_count') ? ' (' . $this->model_catalog_product->getTotalProducts($filter_data) . ')' : ''),
+LINE: 61
+CODE: $this->load->model('catalog/category');
+LINE: 32
+FILE: catalog/view/theme/default/template/module/category.tpl
+CODE: <a href="<?php echo $child['href']; ?>" class="list-group-item active">&nbsp;&nbsp;&nbsp;- <?php echo $child['name']; ?></a>
+LINE: 18
+FILE: catalog/view/theme/holshop/template/module/category.tpl
+CODE: <a href="<?php echo $child['href']; ?>" class="list-group-item active">&nbsp;&nbsp;&nbsp;- <?php echo $child['name']; ?></a>
+LINE: 18
+----------------------------------------------------------------
+MOD: Google Feed Sitemap Fix
+FILE: catalog/controller/feed/google_sitemap.php
+CODE: $this->model_tool_image->resize($product['image'], $this->config->get('config_image_popup_width'), $this->config->get('config_image_popup_height'))
+LINE: 19
+CODE: '<image:caption>' . $product['name'] . '</image:caption>'
+LINE: 20
+CODE: '<image:title>' . $product['name'] . '</image:title>';
+LINE: 21
+----------------------------------------------------------------
+MOD: Local copy OCMOD by iSenseLabs
+FILE: admin/controller/extension/installer.php
+CODE: 'url'  => str_replace('&amp;', '&', $this->url->link('extension/installer/ftp', 'token=' . $this->session->data['token'],
+LINE: 132
+CODE: public function unzip() {
+LINE: 293
+----------------------------------------------------------------
+MOD: viethemes - Advanced Menu
+FILE: catalog/view/theme/default/template/common/header.tpl
+CODE: </head>
+LINE: 121
+CODE: <div class="dropdown-menu">
+LINE: 193
+CODE: <a href="<?php echo $category['href']; ?>" class="see-all"><?php echo $text_all; ?> <?php echo $category['name']; ?></a> </div>
+LINE: 203
+CODE: <a href="<?php echo $category['href']; ?>" class="dropdown-toggle" data-toggle="dropdown"><?php echo $category['name']; ?></a>
+LINE: 183
+----------------------------------------------------------------
+2016-07-06 10:40:49 - MOD: Modification Default
+FILE: system/engine/action.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 39
+FILE: system/engine/loader.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 20
+LINE: 59
+LINE: 80
+LINE: 99
+FILE: system/library/config.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 23
+FILE: system/library/language.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 25
+LINE: 31
+----------------------------------------------------------------
+MOD: 3rd Tier Category Module
+FILE: catalog/controller/module/category.php
+CODE: $children_data[] = array
+LINE: 56
+CODE: 'name' => $child['name'] . ($this->config->get('config_product_count') ? ' (' . $this->model_catalog_product->getTotalProducts($filter_data) . ')' : ''),
+LINE: 61
+CODE: $this->load->model('catalog/category');
+LINE: 32
+FILE: catalog/view/theme/default/template/module/category.tpl
+CODE: <a href="<?php echo $child['href']; ?>" class="list-group-item active">&nbsp;&nbsp;&nbsp;- <?php echo $child['name']; ?></a>
+LINE: 18
+FILE: catalog/view/theme/holshop/template/module/category.tpl
+CODE: <a href="<?php echo $child['href']; ?>" class="list-group-item active">&nbsp;&nbsp;&nbsp;- <?php echo $child['name']; ?></a>
+LINE: 18
+----------------------------------------------------------------
+MOD: EmailVerification
+FILE: catalog/model/account/customer.php
+CODE: if ($this->config->get('config_account_mail')) {
+LINE: 76
+FILE: catalog/view/theme/default/template/account/login.tpl
+CODE: <div class="row"><?php echo $column_left; ?>
+LINE: 18
+FILE: catalog/view/theme/holshop/template/account/login.tpl
+CODE: <div class="row"><?php echo $column_left; ?>
+LINE: 18
+FILE: catalog/controller/account/success.php
+CODE: $data['column_left'] = $this->load->controller('common/column_left');
+LINE: 64
+FILE: catalog/controller/account/login.php
+CODE: if ($customer_info && !$customer_info['approved']) {
+LINE: 208
+CODE: $data['button_login'] = $this->language->get('button_login');
+LINE: 139
+----------------------------------------------------------------
+MOD: Google Feed Sitemap Fix
+FILE: catalog/controller/feed/google_sitemap.php
+CODE: $this->model_tool_image->resize($product['image'], $this->config->get('config_image_popup_width'), $this->config->get('config_image_popup_height'))
+LINE: 19
+CODE: '<image:caption>' . $product['name'] . '</image:caption>'
+LINE: 20
+CODE: '<image:title>' . $product['name'] . '</image:title>';
+LINE: 21
+----------------------------------------------------------------
+MOD: Local copy OCMOD by iSenseLabs
+FILE: admin/controller/extension/installer.php
+CODE: 'url'  => str_replace('&amp;', '&', $this->url->link('extension/installer/ftp', 'token=' . $this->session->data['token'],
+LINE: 132
+CODE: public function unzip() {
+LINE: 293
+----------------------------------------------------------------
+MOD: viethemes - Advanced Menu
+FILE: catalog/view/theme/default/template/common/header.tpl
+CODE: </head>
+LINE: 121
+CODE: <div class="dropdown-menu">
+LINE: 193
+CODE: <a href="<?php echo $category['href']; ?>" class="see-all"><?php echo $text_all; ?> <?php echo $category['name']; ?></a> </div>
+LINE: 203
+CODE: <a href="<?php echo $category['href']; ?>" class="dropdown-toggle" data-toggle="dropdown"><?php echo $category['name']; ?></a>
+LINE: 183
+----------------------------------------------------------------
+2016-07-06 10:57:56 - MOD: Modification Default
+FILE: system/engine/action.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 39
+FILE: system/engine/loader.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 20
+LINE: 59
+LINE: 80
+LINE: 99
+FILE: system/library/config.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 23
+FILE: system/library/language.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 25
+LINE: 31
+----------------------------------------------------------------
+MOD: 3rd Tier Category Module
+FILE: catalog/controller/module/category.php
+CODE: $children_data[] = array
+LINE: 56
+CODE: 'name' => $child['name'] . ($this->config->get('config_product_count') ? ' (' . $this->model_catalog_product->getTotalProducts($filter_data) . ')' : ''),
+LINE: 61
+CODE: $this->load->model('catalog/category');
+LINE: 32
+FILE: catalog/view/theme/default/template/module/category.tpl
+CODE: <a href="<?php echo $child['href']; ?>" class="list-group-item active">&nbsp;&nbsp;&nbsp;- <?php echo $child['name']; ?></a>
+LINE: 18
+FILE: catalog/view/theme/holshop/template/module/category.tpl
+CODE: <a href="<?php echo $child['href']; ?>" class="list-group-item active">&nbsp;&nbsp;&nbsp;- <?php echo $child['name']; ?></a>
+LINE: 18
+----------------------------------------------------------------
+MOD: callme_1click
+FILE: catalog/view/theme/default/template/product/product.tpl
+CODE: <button type="button" id="button-cart" data-loading-text="<?php echo $text_loading; ?>" class="btn btn-primary btn-lg btn-block"><?php echo $button_cart; ?></button>
+LINE: 310
+FILE: catalog/view/theme/holshop/template/product/product.tpl
+CODE: <button type="button" id="button-cart" data-loading-text="<?php echo $text_loading; ?>" class="btn btn-primary btn-lg btn-block"><?php echo $button_cart; ?></button>
+LINE: 312
+----------------------------------------------------------------
+MOD: EmailVerification
+FILE: catalog/model/account/customer.php
+CODE: if ($this->config->get('config_account_mail')) {
+LINE: 76
+FILE: catalog/view/theme/default/template/account/login.tpl
+CODE: <div class="row"><?php echo $column_left; ?>
+LINE: 18
+FILE: catalog/view/theme/holshop/template/account/login.tpl
+CODE: <div class="row"><?php echo $column_left; ?>
+LINE: 18
+FILE: catalog/controller/account/success.php
+CODE: $data['column_left'] = $this->load->controller('common/column_left');
+LINE: 64
+FILE: catalog/controller/account/login.php
+CODE: if ($customer_info && !$customer_info['approved']) {
+LINE: 208
+CODE: $data['button_login'] = $this->language->get('button_login');
+LINE: 139
+----------------------------------------------------------------
+MOD: Google Feed Sitemap Fix
+FILE: catalog/controller/feed/google_sitemap.php
+CODE: $this->model_tool_image->resize($product['image'], $this->config->get('config_image_popup_width'), $this->config->get('config_image_popup_height'))
+LINE: 19
+CODE: '<image:caption>' . $product['name'] . '</image:caption>'
+LINE: 20
+CODE: '<image:title>' . $product['name'] . '</image:title>';
+LINE: 21
+----------------------------------------------------------------
+MOD: Local copy OCMOD by iSenseLabs
+FILE: admin/controller/extension/installer.php
+CODE: 'url'  => str_replace('&amp;', '&', $this->url->link('extension/installer/ftp', 'token=' . $this->session->data['token'],
+LINE: 132
+CODE: public function unzip() {
+LINE: 293
+----------------------------------------------------------------
+MOD: viethemes - Advanced Menu
+FILE: catalog/view/theme/default/template/common/header.tpl
+CODE: </head>
+LINE: 121
+CODE: <div class="dropdown-menu">
+LINE: 193
+CODE: <a href="<?php echo $category['href']; ?>" class="see-all"><?php echo $text_all; ?> <?php echo $category['name']; ?></a> </div>
+LINE: 203
+CODE: <a href="<?php echo $category['href']; ?>" class="dropdown-toggle" data-toggle="dropdown"><?php echo $category['name']; ?></a>
+LINE: 183
+----------------------------------------------------------------
+2016-07-06 11:01:21 - MOD: Modification Default
+FILE: system/engine/action.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 39
+FILE: system/engine/loader.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 20
+LINE: 59
+LINE: 80
+LINE: 99
+FILE: system/library/config.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 23
+FILE: system/library/language.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 25
+LINE: 31
+----------------------------------------------------------------
+MOD: 3rd Tier Category Module
+FILE: catalog/controller/module/category.php
+CODE: $children_data[] = array
+LINE: 56
+CODE: 'name' => $child['name'] . ($this->config->get('config_product_count') ? ' (' . $this->model_catalog_product->getTotalProducts($filter_data) . ')' : ''),
+LINE: 61
+CODE: $this->load->model('catalog/category');
+LINE: 32
+FILE: catalog/view/theme/default/template/module/category.tpl
+CODE: <a href="<?php echo $child['href']; ?>" class="list-group-item active">&nbsp;&nbsp;&nbsp;- <?php echo $child['name']; ?></a>
+LINE: 18
+FILE: catalog/view/theme/holshop/template/module/category.tpl
+CODE: <a href="<?php echo $child['href']; ?>" class="list-group-item active">&nbsp;&nbsp;&nbsp;- <?php echo $child['name']; ?></a>
+LINE: 18
+----------------------------------------------------------------
+MOD: callme_1click
+FILE: catalog/view/theme/default/template/product/product.tpl
+CODE: <button type="button" id="button-cart" data-loading-text="<?php echo $text_loading; ?>" class="btn btn-primary btn-lg btn-block"><?php echo $button_cart; ?></button>
+LINE: 310
+FILE: catalog/view/theme/holshop/template/product/product.tpl
+CODE: <button type="button" id="button-cart" data-loading-text="<?php echo $text_loading; ?>" class="btn btn-primary btn-lg btn-block"><?php echo $button_cart; ?></button>
+LINE: 312
+----------------------------------------------------------------
+MOD: EmailVerification
+FILE: catalog/model/account/customer.php
+CODE: if ($this->config->get('config_account_mail')) {
+LINE: 76
+FILE: catalog/view/theme/default/template/account/login.tpl
+CODE: <div class="row"><?php echo $column_left; ?>
+LINE: 18
+FILE: catalog/view/theme/holshop/template/account/login.tpl
+CODE: <div class="row"><?php echo $column_left; ?>
+LINE: 18
+FILE: catalog/controller/account/success.php
+CODE: $data['column_left'] = $this->load->controller('common/column_left');
+LINE: 64
+FILE: catalog/controller/account/login.php
+CODE: if ($customer_info && !$customer_info['approved']) {
+LINE: 208
+CODE: $data['button_login'] = $this->language->get('button_login');
+LINE: 139
+----------------------------------------------------------------
+MOD: Google Feed Sitemap Fix
+FILE: catalog/controller/feed/google_sitemap.php
+CODE: $this->model_tool_image->resize($product['image'], $this->config->get('config_image_popup_width'), $this->config->get('config_image_popup_height'))
+LINE: 19
+CODE: '<image:caption>' . $product['name'] . '</image:caption>'
+LINE: 20
+CODE: '<image:title>' . $product['name'] . '</image:title>';
+LINE: 21
+----------------------------------------------------------------
+MOD: Local copy OCMOD by iSenseLabs
+FILE: admin/controller/extension/installer.php
+CODE: 'url'  => str_replace('&amp;', '&', $this->url->link('extension/installer/ftp', 'token=' . $this->session->data['token'],
+LINE: 132
+CODE: public function unzip() {
+LINE: 293
+----------------------------------------------------------------
+MOD: viethemes - Advanced Menu
+FILE: catalog/view/theme/default/template/common/header.tpl
+CODE: </head>
+LINE: 121
+CODE: <div class="dropdown-menu">
+LINE: 193
+CODE: <a href="<?php echo $category['href']; ?>" class="see-all"><?php echo $text_all; ?> <?php echo $category['name']; ?></a> </div>
+LINE: 203
+CODE: <a href="<?php echo $category['href']; ?>" class="dropdown-toggle" data-toggle="dropdown"><?php echo $category['name']; ?></a>
+LINE: 183
+----------------------------------------------------------------
+2016-07-06 11:37:02 - MOD: Modification Default
+FILE: system/engine/action.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 39
+FILE: system/engine/loader.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 20
+LINE: 59
+LINE: 80
+LINE: 99
+FILE: system/library/config.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 23
+FILE: system/library/language.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 25
+LINE: 31
+----------------------------------------------------------------
+MOD: 3rd Tier Category Module
+FILE: catalog/controller/module/category.php
+CODE: $children_data[] = array
+LINE: 56
+CODE: 'name' => $child['name'] . ($this->config->get('config_product_count') ? ' (' . $this->model_catalog_product->getTotalProducts($filter_data) . ')' : ''),
+LINE: 61
+CODE: $this->load->model('catalog/category');
+LINE: 32
+FILE: catalog/view/theme/default/template/module/category.tpl
+CODE: <a href="<?php echo $child['href']; ?>" class="list-group-item active">&nbsp;&nbsp;&nbsp;- <?php echo $child['name']; ?></a>
+LINE: 18
+FILE: catalog/view/theme/holshop/template/module/category.tpl
+CODE: <a href="<?php echo $child['href']; ?>" class="list-group-item active">&nbsp;&nbsp;&nbsp;- <?php echo $child['name']; ?></a>
+LINE: 18
+----------------------------------------------------------------
+MOD: callme_1click
+FILE: catalog/view/theme/default/template/product/product.tpl
+CODE: <button type="button" id="button-cart" data-loading-text="<?php echo $text_loading; ?>" class="btn btn-primary btn-lg btn-block"><?php echo $button_cart; ?></button>
+LINE: 310
+FILE: catalog/view/theme/holshop/template/product/product.tpl
+CODE: <button type="button" id="button-cart" data-loading-text="<?php echo $text_loading; ?>" class="btn btn-primary btn-lg btn-block"><?php echo $button_cart; ?></button>
+LINE: 312
+----------------------------------------------------------------
+MOD: EmailVerification
+FILE: catalog/model/account/customer.php
+CODE: if ($this->config->get('config_account_mail')) {
+LINE: 76
+FILE: catalog/view/theme/default/template/account/login.tpl
+CODE: <div class="row"><?php echo $column_left; ?>
+LINE: 18
+FILE: catalog/view/theme/holshop/template/account/login.tpl
+CODE: <div class="row"><?php echo $column_left; ?>
+LINE: 18
+FILE: catalog/controller/account/success.php
+CODE: $data['column_left'] = $this->load->controller('common/column_left');
+LINE: 64
+FILE: catalog/controller/account/login.php
+CODE: if ($customer_info && !$customer_info['approved']) {
+LINE: 208
+CODE: $data['button_login'] = $this->language->get('button_login');
+LINE: 139
+----------------------------------------------------------------
+MOD: Google Feed Sitemap Fix
+FILE: catalog/controller/feed/google_sitemap.php
+CODE: $this->model_tool_image->resize($product['image'], $this->config->get('config_image_popup_width'), $this->config->get('config_image_popup_height'))
+LINE: 19
+CODE: '<image:caption>' . $product['name'] . '</image:caption>'
+LINE: 20
+CODE: '<image:title>' . $product['name'] . '</image:title>';
+LINE: 21
+----------------------------------------------------------------
+MOD: Local copy OCMOD by iSenseLabs
+FILE: admin/controller/extension/installer.php
+CODE: 'url'  => str_replace('&amp;', '&', $this->url->link('extension/installer/ftp', 'token=' . $this->session->data['token'],
+LINE: 132
+CODE: public function unzip() {
+LINE: 293
+----------------------------------------------------------------
+MOD: Menu Item for the Acute Category Manager
+FILE: admin/view/template/common/menu.tpl
+CODE: <li><a href="<?php echo $category; ?>"><?php echo $text_category; ?></a></li>
+LINE: 4
+FILE: admin/controller/common/menu.php
+CODE: $this->load->language('common/menu');
+LINE: 3
+----------------------------------------------------------------
+MOD: viethemes - Advanced Menu
+FILE: catalog/view/theme/default/template/common/header.tpl
+CODE: </head>
+LINE: 121
+CODE: <div class="dropdown-menu">
+LINE: 193
+CODE: <a href="<?php echo $category['href']; ?>" class="see-all"><?php echo $text_all; ?> <?php echo $category['name']; ?></a> </div>
+LINE: 203
+CODE: <a href="<?php echo $category['href']; ?>" class="dropdown-toggle" data-toggle="dropdown"><?php echo $category['name']; ?></a>
+LINE: 183
+----------------------------------------------------------------
+2016-07-06 11:38:09 - MOD: Modification Default
+FILE: system/engine/action.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 39
+FILE: system/engine/loader.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 20
+LINE: 59
+LINE: 80
+LINE: 99
+FILE: system/library/config.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 23
+FILE: system/library/language.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 25
+LINE: 31
+----------------------------------------------------------------
+MOD: 3rd Tier Category Module
+FILE: catalog/controller/module/category.php
+CODE: $children_data[] = array
+LINE: 56
+CODE: 'name' => $child['name'] . ($this->config->get('config_product_count') ? ' (' . $this->model_catalog_product->getTotalProducts($filter_data) . ')' : ''),
+LINE: 61
+CODE: $this->load->model('catalog/category');
+LINE: 32
+FILE: catalog/view/theme/default/template/module/category.tpl
+CODE: <a href="<?php echo $child['href']; ?>" class="list-group-item active">&nbsp;&nbsp;&nbsp;- <?php echo $child['name']; ?></a>
+LINE: 18
+FILE: catalog/view/theme/holshop/template/module/category.tpl
+CODE: <a href="<?php echo $child['href']; ?>" class="list-group-item active">&nbsp;&nbsp;&nbsp;- <?php echo $child['name']; ?></a>
+LINE: 18
+----------------------------------------------------------------
+MOD: callme_1click
+FILE: catalog/view/theme/default/template/product/product.tpl
+CODE: <button type="button" id="button-cart" data-loading-text="<?php echo $text_loading; ?>" class="btn btn-primary btn-lg btn-block"><?php echo $button_cart; ?></button>
+LINE: 310
+FILE: catalog/view/theme/holshop/template/product/product.tpl
+CODE: <button type="button" id="button-cart" data-loading-text="<?php echo $text_loading; ?>" class="btn btn-primary btn-lg btn-block"><?php echo $button_cart; ?></button>
+LINE: 312
+----------------------------------------------------------------
+MOD: EmailVerification
+FILE: catalog/model/account/customer.php
+CODE: if ($this->config->get('config_account_mail')) {
+LINE: 76
+FILE: catalog/view/theme/default/template/account/login.tpl
+CODE: <div class="row"><?php echo $column_left; ?>
+LINE: 18
+FILE: catalog/view/theme/holshop/template/account/login.tpl
+CODE: <div class="row"><?php echo $column_left; ?>
+LINE: 18
+FILE: catalog/controller/account/success.php
+CODE: $data['column_left'] = $this->load->controller('common/column_left');
+LINE: 64
+FILE: catalog/controller/account/login.php
+CODE: if ($customer_info && !$customer_info['approved']) {
+LINE: 208
+CODE: $data['button_login'] = $this->language->get('button_login');
+LINE: 139
+----------------------------------------------------------------
+MOD: Google Feed Sitemap Fix
+FILE: catalog/controller/feed/google_sitemap.php
+CODE: $this->model_tool_image->resize($product['image'], $this->config->get('config_image_popup_width'), $this->config->get('config_image_popup_height'))
+LINE: 19
+CODE: '<image:caption>' . $product['name'] . '</image:caption>'
+LINE: 20
+CODE: '<image:title>' . $product['name'] . '</image:title>';
+LINE: 21
+----------------------------------------------------------------
+MOD: Local copy OCMOD by iSenseLabs
+FILE: admin/controller/extension/installer.php
+CODE: 'url'  => str_replace('&amp;', '&', $this->url->link('extension/installer/ftp', 'token=' . $this->session->data['token'],
+LINE: 132
+CODE: public function unzip() {
+LINE: 293
+----------------------------------------------------------------
+MOD: Menu Item for the Acute Category Manager
+FILE: admin/view/template/common/menu.tpl
+CODE: <li><a href="<?php echo $category; ?>"><?php echo $text_category; ?></a></li>
+LINE: 4
+FILE: admin/controller/common/menu.php
+CODE: $this->load->language('common/menu');
+LINE: 3
+----------------------------------------------------------------
+MOD: viethemes - Advanced Menu
+FILE: catalog/view/theme/default/template/common/header.tpl
+CODE: </head>
+LINE: 121
+CODE: <div class="dropdown-menu">
+LINE: 193
+CODE: <a href="<?php echo $category['href']; ?>" class="see-all"><?php echo $text_all; ?> <?php echo $category['name']; ?></a> </div>
+LINE: 203
+CODE: <a href="<?php echo $category['href']; ?>" class="dropdown-toggle" data-toggle="dropdown"><?php echo $category['name']; ?></a>
+LINE: 183
+----------------------------------------------------------------
+2016-07-06 11:40:29 - MOD: Modification Default
+FILE: system/engine/action.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 39
+FILE: system/engine/loader.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 20
+LINE: 59
+LINE: 80
+LINE: 99
+FILE: system/library/config.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 23
+FILE: system/library/language.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 25
+LINE: 31
+----------------------------------------------------------------
+MOD: 3rd Tier Category Module
+FILE: catalog/controller/module/category.php
+CODE: $children_data[] = array
+LINE: 56
+CODE: 'name' => $child['name'] . ($this->config->get('config_product_count') ? ' (' . $this->model_catalog_product->getTotalProducts($filter_data) . ')' : ''),
+LINE: 61
+CODE: $this->load->model('catalog/category');
+LINE: 32
+FILE: catalog/view/theme/default/template/module/category.tpl
+CODE: <a href="<?php echo $child['href']; ?>" class="list-group-item active">&nbsp;&nbsp;&nbsp;- <?php echo $child['name']; ?></a>
+LINE: 18
+FILE: catalog/view/theme/holshop/template/module/category.tpl
+CODE: <a href="<?php echo $child['href']; ?>" class="list-group-item active">&nbsp;&nbsp;&nbsp;- <?php echo $child['name']; ?></a>
+LINE: 18
+----------------------------------------------------------------
+MOD: callme_1click
+FILE: catalog/view/theme/default/template/product/product.tpl
+CODE: <button type="button" id="button-cart" data-loading-text="<?php echo $text_loading; ?>" class="btn btn-primary btn-lg btn-block"><?php echo $button_cart; ?></button>
+LINE: 310
+FILE: catalog/view/theme/holshop/template/product/product.tpl
+CODE: <button type="button" id="button-cart" data-loading-text="<?php echo $text_loading; ?>" class="btn btn-primary btn-lg btn-block"><?php echo $button_cart; ?></button>
+LINE: 312
+----------------------------------------------------------------
+MOD: EmailVerification
+FILE: catalog/model/account/customer.php
+CODE: if ($this->config->get('config_account_mail')) {
+LINE: 76
+FILE: catalog/view/theme/default/template/account/login.tpl
+CODE: <div class="row"><?php echo $column_left; ?>
+LINE: 18
+FILE: catalog/view/theme/holshop/template/account/login.tpl
+CODE: <div class="row"><?php echo $column_left; ?>
+LINE: 18
+FILE: catalog/controller/account/success.php
+CODE: $data['column_left'] = $this->load->controller('common/column_left');
+LINE: 64
+FILE: catalog/controller/account/login.php
+CODE: if ($customer_info && !$customer_info['approved']) {
+LINE: 208
+CODE: $data['button_login'] = $this->language->get('button_login');
+LINE: 139
+----------------------------------------------------------------
+MOD: Google Feed Sitemap Fix
+FILE: catalog/controller/feed/google_sitemap.php
+CODE: $this->model_tool_image->resize($product['image'], $this->config->get('config_image_popup_width'), $this->config->get('config_image_popup_height'))
+LINE: 19
+CODE: '<image:caption>' . $product['name'] . '</image:caption>'
+LINE: 20
+CODE: '<image:title>' . $product['name'] . '</image:title>';
+LINE: 21
+----------------------------------------------------------------
+MOD: Local copy OCMOD by iSenseLabs
+FILE: admin/controller/extension/installer.php
+CODE: 'url'  => str_replace('&amp;', '&', $this->url->link('extension/installer/ftp', 'token=' . $this->session->data['token'],
+LINE: 132
+CODE: public function unzip() {
+LINE: 293
+----------------------------------------------------------------
+MOD: Menu Item for the Acute Category Manager
+FILE: admin/view/template/common/menu.tpl
+CODE: <li><a href="<?php echo $category; ?>"><?php echo $text_category; ?></a></li>
+LINE: 4
+FILE: admin/controller/common/menu.php
+CODE: $this->load->language('common/menu');
+LINE: 3
+----------------------------------------------------------------
+MOD: viethemes - Advanced Menu
+FILE: catalog/view/theme/default/template/common/header.tpl
+CODE: </head>
+LINE: 121
+CODE: <div class="dropdown-menu">
+LINE: 193
+CODE: <a href="<?php echo $category['href']; ?>" class="see-all"><?php echo $text_all; ?> <?php echo $category['name']; ?></a> </div>
+LINE: 203
+CODE: <a href="<?php echo $category['href']; ?>" class="dropdown-toggle" data-toggle="dropdown"><?php echo $category['name']; ?></a>
+LINE: 183
+----------------------------------------------------------------
+2016-07-06 11:45:38 - MOD: Modification Default
+FILE: system/engine/action.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 39
+FILE: system/engine/loader.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 20
+LINE: 59
+LINE: 80
+LINE: 99
+FILE: system/library/config.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 23
+FILE: system/library/language.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 25
+LINE: 31
+----------------------------------------------------------------
+MOD: 3rd Tier Category Module
+FILE: catalog/controller/module/category.php
+CODE: $children_data[] = array
+LINE: 56
+CODE: 'name' => $child['name'] . ($this->config->get('config_product_count') ? ' (' . $this->model_catalog_product->getTotalProducts($filter_data) . ')' : ''),
+LINE: 61
+CODE: $this->load->model('catalog/category');
+LINE: 32
+FILE: catalog/view/theme/default/template/module/category.tpl
+CODE: <a href="<?php echo $child['href']; ?>" class="list-group-item active">&nbsp;&nbsp;&nbsp;- <?php echo $child['name']; ?></a>
+LINE: 18
+FILE: catalog/view/theme/holshop/template/module/category.tpl
+CODE: <a href="<?php echo $child['href']; ?>" class="list-group-item active">&nbsp;&nbsp;&nbsp;- <?php echo $child['name']; ?></a>
+LINE: 18
+----------------------------------------------------------------
+MOD: EmailVerification
+FILE: catalog/model/account/customer.php
+CODE: if ($this->config->get('config_account_mail')) {
+LINE: 76
+FILE: catalog/view/theme/default/template/account/login.tpl
+CODE: <div class="row"><?php echo $column_left; ?>
+LINE: 18
+FILE: catalog/view/theme/holshop/template/account/login.tpl
+CODE: <div class="row"><?php echo $column_left; ?>
+LINE: 18
+FILE: catalog/controller/account/success.php
+CODE: $data['column_left'] = $this->load->controller('common/column_left');
+LINE: 64
+FILE: catalog/controller/account/login.php
+CODE: if ($customer_info && !$customer_info['approved']) {
+LINE: 208
+CODE: $data['button_login'] = $this->language->get('button_login');
+LINE: 139
+----------------------------------------------------------------
+MOD: Google Feed Sitemap Fix
+FILE: catalog/controller/feed/google_sitemap.php
+CODE: $this->model_tool_image->resize($product['image'], $this->config->get('config_image_popup_width'), $this->config->get('config_image_popup_height'))
+LINE: 19
+CODE: '<image:caption>' . $product['name'] . '</image:caption>'
+LINE: 20
+CODE: '<image:title>' . $product['name'] . '</image:title>';
+LINE: 21
+----------------------------------------------------------------
+MOD: Local copy OCMOD by iSenseLabs
+FILE: admin/controller/extension/installer.php
+CODE: 'url'  => str_replace('&amp;', '&', $this->url->link('extension/installer/ftp', 'token=' . $this->session->data['token'],
+LINE: 132
+CODE: public function unzip() {
+LINE: 293
+----------------------------------------------------------------
+MOD: Menu Item for the Acute Category Manager
+FILE: admin/view/template/common/menu.tpl
+CODE: <li><a href="<?php echo $category; ?>"><?php echo $text_category; ?></a></li>
+LINE: 4
+FILE: admin/controller/common/menu.php
+CODE: $this->load->language('common/menu');
+LINE: 3
+----------------------------------------------------------------
+MOD: viethemes - Advanced Menu
+FILE: catalog/view/theme/default/template/common/header.tpl
+CODE: </head>
+LINE: 121
+CODE: <div class="dropdown-menu">
+LINE: 193
+CODE: <a href="<?php echo $category['href']; ?>" class="see-all"><?php echo $text_all; ?> <?php echo $category['name']; ?></a> </div>
+LINE: 203
+CODE: <a href="<?php echo $category['href']; ?>" class="dropdown-toggle" data-toggle="dropdown"><?php echo $category['name']; ?></a>
+LINE: 183
+----------------------------------------------------------------
+2016-07-06 11:46:08 - MOD: Modification Default
+FILE: system/engine/action.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 39
+FILE: system/engine/loader.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 20
+LINE: 59
+LINE: 80
+LINE: 99
+FILE: system/library/config.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 23
+FILE: system/library/language.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 25
+LINE: 31
+----------------------------------------------------------------
+MOD: 3rd Tier Category Module
+FILE: catalog/controller/module/category.php
+CODE: $children_data[] = array
+LINE: 56
+CODE: 'name' => $child['name'] . ($this->config->get('config_product_count') ? ' (' . $this->model_catalog_product->getTotalProducts($filter_data) . ')' : ''),
+LINE: 61
+CODE: $this->load->model('catalog/category');
+LINE: 32
+FILE: catalog/view/theme/default/template/module/category.tpl
+CODE: <a href="<?php echo $child['href']; ?>" class="list-group-item active">&nbsp;&nbsp;&nbsp;- <?php echo $child['name']; ?></a>
+LINE: 18
+FILE: catalog/view/theme/holshop/template/module/category.tpl
+CODE: <a href="<?php echo $child['href']; ?>" class="list-group-item active">&nbsp;&nbsp;&nbsp;- <?php echo $child['name']; ?></a>
+LINE: 18
+----------------------------------------------------------------
+MOD: EmailVerification
+FILE: catalog/model/account/customer.php
+CODE: if ($this->config->get('config_account_mail')) {
+LINE: 76
+FILE: catalog/view/theme/default/template/account/login.tpl
+CODE: <div class="row"><?php echo $column_left; ?>
+LINE: 18
+FILE: catalog/view/theme/holshop/template/account/login.tpl
+CODE: <div class="row"><?php echo $column_left; ?>
+LINE: 18
+FILE: catalog/controller/account/success.php
+CODE: $data['column_left'] = $this->load->controller('common/column_left');
+LINE: 64
+FILE: catalog/controller/account/login.php
+CODE: if ($customer_info && !$customer_info['approved']) {
+LINE: 208
+CODE: $data['button_login'] = $this->language->get('button_login');
+LINE: 139
+----------------------------------------------------------------
+MOD: Google Feed Sitemap Fix
+FILE: catalog/controller/feed/google_sitemap.php
+CODE: $this->model_tool_image->resize($product['image'], $this->config->get('config_image_popup_width'), $this->config->get('config_image_popup_height'))
+LINE: 19
+CODE: '<image:caption>' . $product['name'] . '</image:caption>'
+LINE: 20
+CODE: '<image:title>' . $product['name'] . '</image:title>';
+LINE: 21
+----------------------------------------------------------------
+MOD: Local copy OCMOD by iSenseLabs
+FILE: admin/controller/extension/installer.php
+CODE: 'url'  => str_replace('&amp;', '&', $this->url->link('extension/installer/ftp', 'token=' . $this->session->data['token'],
+LINE: 132
+CODE: public function unzip() {
+LINE: 293
+----------------------------------------------------------------
+MOD: Menu Item for the Acute Category Manager
+FILE: admin/view/template/common/menu.tpl
+CODE: <li><a href="<?php echo $category; ?>"><?php echo $text_category; ?></a></li>
+LINE: 4
+FILE: admin/controller/common/menu.php
+CODE: $this->load->language('common/menu');
+LINE: 3
+----------------------------------------------------------------
+MOD: viethemes - Advanced Menu
+FILE: catalog/view/theme/default/template/common/header.tpl
+CODE: </head>
+LINE: 121
+CODE: <div class="dropdown-menu">
+LINE: 193
+CODE: <a href="<?php echo $category['href']; ?>" class="see-all"><?php echo $text_all; ?> <?php echo $category['name']; ?></a> </div>
+LINE: 203
+CODE: <a href="<?php echo $category['href']; ?>" class="dropdown-toggle" data-toggle="dropdown"><?php echo $category['name']; ?></a>
+LINE: 183
+----------------------------------------------------------------
+2016-07-06 11:46:22 - MOD: Modification Default
+FILE: system/engine/action.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 39
+FILE: system/engine/loader.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 20
+LINE: 59
+LINE: 80
+LINE: 99
+FILE: system/library/config.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 23
+FILE: system/library/language.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 25
+LINE: 31
+----------------------------------------------------------------
+MOD: 3rd Tier Category Module
+FILE: catalog/controller/module/category.php
+CODE: $children_data[] = array
+LINE: 56
+CODE: 'name' => $child['name'] . ($this->config->get('config_product_count') ? ' (' . $this->model_catalog_product->getTotalProducts($filter_data) . ')' : ''),
+LINE: 61
+CODE: $this->load->model('catalog/category');
+LINE: 32
+FILE: catalog/view/theme/default/template/module/category.tpl
+CODE: <a href="<?php echo $child['href']; ?>" class="list-group-item active">&nbsp;&nbsp;&nbsp;- <?php echo $child['name']; ?></a>
+LINE: 18
+FILE: catalog/view/theme/holshop/template/module/category.tpl
+CODE: <a href="<?php echo $child['href']; ?>" class="list-group-item active">&nbsp;&nbsp;&nbsp;- <?php echo $child['name']; ?></a>
+LINE: 18
+----------------------------------------------------------------
+MOD: EmailVerification
+FILE: catalog/model/account/customer.php
+CODE: if ($this->config->get('config_account_mail')) {
+LINE: 76
+FILE: catalog/view/theme/default/template/account/login.tpl
+CODE: <div class="row"><?php echo $column_left; ?>
+LINE: 18
+FILE: catalog/view/theme/holshop/template/account/login.tpl
+CODE: <div class="row"><?php echo $column_left; ?>
+LINE: 18
+FILE: catalog/controller/account/success.php
+CODE: $data['column_left'] = $this->load->controller('common/column_left');
+LINE: 64
+FILE: catalog/controller/account/login.php
+CODE: if ($customer_info && !$customer_info['approved']) {
+LINE: 208
+CODE: $data['button_login'] = $this->language->get('button_login');
+LINE: 139
+----------------------------------------------------------------
+MOD: Google Feed Sitemap Fix
+FILE: catalog/controller/feed/google_sitemap.php
+CODE: $this->model_tool_image->resize($product['image'], $this->config->get('config_image_popup_width'), $this->config->get('config_image_popup_height'))
+LINE: 19
+CODE: '<image:caption>' . $product['name'] . '</image:caption>'
+LINE: 20
+CODE: '<image:title>' . $product['name'] . '</image:title>';
+LINE: 21
+----------------------------------------------------------------
+MOD: Local copy OCMOD by iSenseLabs
+FILE: admin/controller/extension/installer.php
+CODE: 'url'  => str_replace('&amp;', '&', $this->url->link('extension/installer/ftp', 'token=' . $this->session->data['token'],
+LINE: 132
+CODE: public function unzip() {
+LINE: 293
+----------------------------------------------------------------
+MOD: Menu Item for the Acute Category Manager
+FILE: admin/view/template/common/menu.tpl
+CODE: <li><a href="<?php echo $category; ?>"><?php echo $text_category; ?></a></li>
+LINE: 4
+FILE: admin/controller/common/menu.php
+CODE: $this->load->language('common/menu');
+LINE: 3
+----------------------------------------------------------------
+2016-07-06 12:16:07 - MOD: Modification Default
+FILE: system/engine/action.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 39
+FILE: system/engine/loader.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 20
+LINE: 59
+LINE: 80
+LINE: 99
+FILE: system/library/config.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 23
+FILE: system/library/language.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 25
+LINE: 31
+----------------------------------------------------------------
+MOD: 3rd Tier Category Module
+FILE: catalog/controller/module/category.php
+CODE: $children_data[] = array
+LINE: 56
+CODE: 'name' => $child['name'] . ($this->config->get('config_product_count') ? ' (' . $this->model_catalog_product->getTotalProducts($filter_data) . ')' : ''),
+LINE: 61
+CODE: $this->load->model('catalog/category');
+LINE: 32
+FILE: catalog/view/theme/default/template/module/category.tpl
+CODE: <a href="<?php echo $child['href']; ?>" class="list-group-item active">&nbsp;&nbsp;&nbsp;- <?php echo $child['name']; ?></a>
+LINE: 18
+FILE: catalog/view/theme/holshop/template/module/category.tpl
+CODE: <a href="<?php echo $child['href']; ?>" class="list-group-item active">&nbsp;&nbsp;&nbsp;- <?php echo $child['name']; ?></a>
+LINE: 18
+----------------------------------------------------------------
+MOD: EmailVerification
+FILE: catalog/model/account/customer.php
+CODE: if ($this->config->get('config_account_mail')) {
+LINE: 76
+FILE: catalog/view/theme/default/template/account/login.tpl
+CODE: <div class="row"><?php echo $column_left; ?>
+LINE: 18
+FILE: catalog/view/theme/holshop/template/account/login.tpl
+CODE: <div class="row"><?php echo $column_left; ?>
+LINE: 18
+FILE: catalog/controller/account/success.php
+CODE: $data['column_left'] = $this->load->controller('common/column_left');
+LINE: 64
+FILE: catalog/controller/account/login.php
+CODE: if ($customer_info && !$customer_info['approved']) {
+LINE: 208
+CODE: $data['button_login'] = $this->language->get('button_login');
+LINE: 139
+----------------------------------------------------------------
+MOD: Fast Order modification
+FILE: catalog/view/theme/default/template/product/product.tpl
+CODE: <button type="button" id="button-cart" data-loading-text="<?php echo $text_loading; ?>" class="btn btn-primary btn-lg btn-block"><?php echo $button_cart; ?></button>
+LINE: 312
+FILE: catalog/view/theme/holshop/template/product/product.tpl
+CODE: <button type="button" id="button-cart" data-loading-text="<?php echo $text_loading; ?>" class="btn btn-primary btn-lg btn-block"><?php echo $button_cart; ?></button>
+LINE: 314
+FILE: catalog/controller/product/product.php
+CODE: $this->model_catalog_product->updateViewed($this->request->get['product_id']);
+LINE: 480
+FILE: catalog/view/theme/default/template/product/category.tpl
+CODE: <div class="button-group">
+LINE: 132
+FILE: catalog/view/theme/holshop/template/product/category.tpl
+CODE: <div class="button-group">
+LINE: 134
+FILE: catalog/controller/product/category.php
+CODE: 'rating'      => $result['rating'],
+LINE: 235
+CODE: if (file_exists(DIR_TEMPLATE . $this->config->get('config_template') . '/template/product/category.tpl'))
+LINE: 393
+FILE: catalog/view/theme/default/template/common/footer.tpl
+CODE: </footer>
+LINE: 65
+FILE: catalog/view/theme/holshop/template/common/footer.tpl
+CODE: </footer>
+LINE: 65
+----------------------------------------------------------------
+MOD: Google Feed Sitemap Fix
+FILE: catalog/controller/feed/google_sitemap.php
+CODE: $this->model_tool_image->resize($product['image'], $this->config->get('config_image_popup_width'), $this->config->get('config_image_popup_height'))
+LINE: 19
+CODE: '<image:caption>' . $product['name'] . '</image:caption>'
+LINE: 20
+CODE: '<image:title>' . $product['name'] . '</image:title>';
+LINE: 21
+----------------------------------------------------------------
+MOD: Local copy OCMOD by iSenseLabs
+FILE: admin/controller/extension/installer.php
+CODE: 'url'  => str_replace('&amp;', '&', $this->url->link('extension/installer/ftp', 'token=' . $this->session->data['token'],
+LINE: 132
+CODE: public function unzip() {
+LINE: 293
+----------------------------------------------------------------
+MOD: Menu Item for the Acute Category Manager
+FILE: admin/view/template/common/menu.tpl
+CODE: <li><a href="<?php echo $category; ?>"><?php echo $text_category; ?></a></li>
+LINE: 4
+FILE: admin/controller/common/menu.php
+CODE: $this->load->language('common/menu');
+LINE: 3
+----------------------------------------------------------------
+2016-07-06 12:16:37 - MOD: Modification Default
+FILE: system/engine/action.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 39
+FILE: system/engine/loader.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 20
+LINE: 59
+LINE: 80
+LINE: 99
+FILE: system/library/config.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 23
+FILE: system/library/language.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 25
+LINE: 31
+----------------------------------------------------------------
+MOD: 3rd Tier Category Module
+FILE: catalog/controller/module/category.php
+CODE: $children_data[] = array
+LINE: 56
+CODE: 'name' => $child['name'] . ($this->config->get('config_product_count') ? ' (' . $this->model_catalog_product->getTotalProducts($filter_data) . ')' : ''),
+LINE: 61
+CODE: $this->load->model('catalog/category');
+LINE: 32
+FILE: catalog/view/theme/default/template/module/category.tpl
+CODE: <a href="<?php echo $child['href']; ?>" class="list-group-item active">&nbsp;&nbsp;&nbsp;- <?php echo $child['name']; ?></a>
+LINE: 18
+FILE: catalog/view/theme/holshop/template/module/category.tpl
+CODE: <a href="<?php echo $child['href']; ?>" class="list-group-item active">&nbsp;&nbsp;&nbsp;- <?php echo $child['name']; ?></a>
+LINE: 18
+----------------------------------------------------------------
+MOD: EmailVerification
+FILE: catalog/model/account/customer.php
+CODE: if ($this->config->get('config_account_mail')) {
+LINE: 76
+FILE: catalog/view/theme/default/template/account/login.tpl
+CODE: <div class="row"><?php echo $column_left; ?>
+LINE: 18
+FILE: catalog/view/theme/holshop/template/account/login.tpl
+CODE: <div class="row"><?php echo $column_left; ?>
+LINE: 18
+FILE: catalog/controller/account/success.php
+CODE: $data['column_left'] = $this->load->controller('common/column_left');
+LINE: 64
+FILE: catalog/controller/account/login.php
+CODE: if ($customer_info && !$customer_info['approved']) {
+LINE: 208
+CODE: $data['button_login'] = $this->language->get('button_login');
+LINE: 139
+----------------------------------------------------------------
+MOD: Fast Order modification
+FILE: catalog/view/theme/default/template/product/product.tpl
+CODE: <button type="button" id="button-cart" data-loading-text="<?php echo $text_loading; ?>" class="btn btn-primary btn-lg btn-block"><?php echo $button_cart; ?></button>
+LINE: 312
+FILE: catalog/view/theme/holshop/template/product/product.tpl
+CODE: <button type="button" id="button-cart" data-loading-text="<?php echo $text_loading; ?>" class="btn btn-primary btn-lg btn-block"><?php echo $button_cart; ?></button>
+LINE: 314
+FILE: catalog/controller/product/product.php
+CODE: $this->model_catalog_product->updateViewed($this->request->get['product_id']);
+LINE: 480
+FILE: catalog/view/theme/default/template/product/category.tpl
+CODE: <div class="button-group">
+LINE: 132
+FILE: catalog/view/theme/holshop/template/product/category.tpl
+CODE: <div class="button-group">
+LINE: 134
+FILE: catalog/controller/product/category.php
+CODE: 'rating'      => $result['rating'],
+LINE: 235
+CODE: if (file_exists(DIR_TEMPLATE . $this->config->get('config_template') . '/template/product/category.tpl'))
+LINE: 393
+FILE: catalog/view/theme/default/template/common/footer.tpl
+CODE: </footer>
+LINE: 65
+FILE: catalog/view/theme/holshop/template/common/footer.tpl
+CODE: </footer>
+LINE: 65
+----------------------------------------------------------------
+MOD: Google Feed Sitemap Fix
+FILE: catalog/controller/feed/google_sitemap.php
+CODE: $this->model_tool_image->resize($product['image'], $this->config->get('config_image_popup_width'), $this->config->get('config_image_popup_height'))
+LINE: 19
+CODE: '<image:caption>' . $product['name'] . '</image:caption>'
+LINE: 20
+CODE: '<image:title>' . $product['name'] . '</image:title>';
+LINE: 21
+----------------------------------------------------------------
+MOD: Local copy OCMOD by iSenseLabs
+FILE: admin/controller/extension/installer.php
+CODE: 'url'  => str_replace('&amp;', '&', $this->url->link('extension/installer/ftp', 'token=' . $this->session->data['token'],
+LINE: 132
+CODE: public function unzip() {
+LINE: 293
+----------------------------------------------------------------
+MOD: Menu Item for the Acute Category Manager
+FILE: admin/view/template/common/menu.tpl
+CODE: <li><a href="<?php echo $category; ?>"><?php echo $text_category; ?></a></li>
+LINE: 4
+FILE: admin/controller/common/menu.php
+CODE: $this->load->language('common/menu');
+LINE: 3
+----------------------------------------------------------------
+2016-07-06 12:31:08 - MOD: Modification Default
+FILE: system/engine/action.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 39
+FILE: system/engine/loader.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 20
+LINE: 59
+LINE: 80
+LINE: 99
+FILE: system/library/config.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 23
+FILE: system/library/language.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 25
+LINE: 31
+----------------------------------------------------------------
+MOD: 3rd Tier Category Module
+FILE: catalog/controller/module/category.php
+CODE: $children_data[] = array
+LINE: 56
+CODE: 'name' => $child['name'] . ($this->config->get('config_product_count') ? ' (' . $this->model_catalog_product->getTotalProducts($filter_data) . ')' : ''),
+LINE: 61
+CODE: $this->load->model('catalog/category');
+LINE: 32
+FILE: catalog/view/theme/default/template/module/category.tpl
+CODE: <a href="<?php echo $child['href']; ?>" class="list-group-item active">&nbsp;&nbsp;&nbsp;- <?php echo $child['name']; ?></a>
+LINE: 18
+FILE: catalog/view/theme/holshop/template/module/category.tpl
+CODE: <a href="<?php echo $child['href']; ?>" class="list-group-item active">&nbsp;&nbsp;&nbsp;- <?php echo $child['name']; ?></a>
+LINE: 18
+----------------------------------------------------------------
+MOD: EmailVerification
+FILE: catalog/model/account/customer.php
+CODE: if ($this->config->get('config_account_mail')) {
+LINE: 76
+FILE: catalog/view/theme/default/template/account/login.tpl
+CODE: <div class="row"><?php echo $column_left; ?>
+LINE: 18
+FILE: catalog/view/theme/holshop/template/account/login.tpl
+CODE: <div class="row"><?php echo $column_left; ?>
+LINE: 18
+FILE: catalog/controller/account/success.php
+CODE: $data['column_left'] = $this->load->controller('common/column_left');
+LINE: 64
+FILE: catalog/controller/account/login.php
+CODE: if ($customer_info && !$customer_info['approved']) {
+LINE: 208
+CODE: $data['button_login'] = $this->language->get('button_login');
+LINE: 139
+----------------------------------------------------------------
+MOD: Google Feed Sitemap Fix
+FILE: catalog/controller/feed/google_sitemap.php
+CODE: $this->model_tool_image->resize($product['image'], $this->config->get('config_image_popup_width'), $this->config->get('config_image_popup_height'))
+LINE: 19
+CODE: '<image:caption>' . $product['name'] . '</image:caption>'
+LINE: 20
+CODE: '<image:title>' . $product['name'] . '</image:title>';
+LINE: 21
+----------------------------------------------------------------
+MOD: Local copy OCMOD by iSenseLabs
+FILE: admin/controller/extension/installer.php
+CODE: 'url'  => str_replace('&amp;', '&', $this->url->link('extension/installer/ftp', 'token=' . $this->session->data['token'],
+LINE: 132
+CODE: public function unzip() {
+LINE: 293
+----------------------------------------------------------------
+MOD: Menu Item for the Acute Category Manager
+FILE: admin/view/template/common/menu.tpl
+CODE: <li><a href="<?php echo $category; ?>"><?php echo $text_category; ?></a></li>
+LINE: 4
+FILE: admin/controller/common/menu.php
+CODE: $this->load->language('common/menu');
+LINE: 3
+----------------------------------------------------------------
+2016-07-06 12:40:55 - MOD: Modification Default
+FILE: system/engine/action.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 39
+FILE: system/engine/loader.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 20
+LINE: 59
+LINE: 80
+LINE: 99
+FILE: system/library/config.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 23
+FILE: system/library/language.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 25
+LINE: 31
+----------------------------------------------------------------
+MOD: 3rd Tier Category Module
+FILE: catalog/controller/module/category.php
+CODE: $children_data[] = array
+LINE: 56
+CODE: 'name' => $child['name'] . ($this->config->get('config_product_count') ? ' (' . $this->model_catalog_product->getTotalProducts($filter_data) . ')' : ''),
+LINE: 61
+CODE: $this->load->model('catalog/category');
+LINE: 32
+FILE: catalog/view/theme/default/template/module/category.tpl
+CODE: <a href="<?php echo $child['href']; ?>" class="list-group-item active">&nbsp;&nbsp;&nbsp;- <?php echo $child['name']; ?></a>
+LINE: 18
+FILE: catalog/view/theme/holshop/template/module/category.tpl
+CODE: <a href="<?php echo $child['href']; ?>" class="list-group-item active">&nbsp;&nbsp;&nbsp;- <?php echo $child['name']; ?></a>
+LINE: 18
+----------------------------------------------------------------
+MOD: EmailVerification
+FILE: catalog/model/account/customer.php
+CODE: if ($this->config->get('config_account_mail')) {
+LINE: 76
+FILE: catalog/view/theme/default/template/account/login.tpl
+CODE: <div class="row"><?php echo $column_left; ?>
+LINE: 18
+FILE: catalog/view/theme/holshop/template/account/login.tpl
+CODE: <div class="row"><?php echo $column_left; ?>
+LINE: 18
+FILE: catalog/controller/account/success.php
+CODE: $data['column_left'] = $this->load->controller('common/column_left');
+LINE: 64
+FILE: catalog/controller/account/login.php
+CODE: if ($customer_info && !$customer_info['approved']) {
+LINE: 208
+CODE: $data['button_login'] = $this->language->get('button_login');
+LINE: 139
+----------------------------------------------------------------
+MOD: Fast Order modification
+FILE: catalog/view/theme/default/template/product/product.tpl
+CODE: <button type="button" id="button-cart" data-loading-text="<?php echo $text_loading; ?>" class="btn btn-primary btn-lg btn-block"><?php echo $button_cart; ?></button>
+LINE: 312
+FILE: catalog/view/theme/holshop/template/product/product.tpl
+CODE: <button type="button" id="button-cart" data-loading-text="<?php echo $text_loading; ?>" class="btn btn-primary btn-lg btn-block"><?php echo $button_cart; ?></button>
+LINE: 314
+FILE: catalog/controller/product/product.php
+CODE: $this->model_catalog_product->updateViewed($this->request->get['product_id']);
+LINE: 480
+FILE: catalog/view/theme/default/template/product/category.tpl
+CODE: <div class="button-group">
+LINE: 132
+FILE: catalog/view/theme/holshop/template/product/category.tpl
+CODE: <div class="button-group">
+LINE: 134
+FILE: catalog/controller/product/category.php
+CODE: 'rating'      => $result['rating'],
+LINE: 235
+CODE: if (file_exists(DIR_TEMPLATE . $this->config->get('config_template') . '/template/product/category.tpl'))
+LINE: 393
+FILE: catalog/view/theme/default/template/common/footer.tpl
+CODE: </footer>
+LINE: 65
+FILE: catalog/view/theme/holshop/template/common/footer.tpl
+CODE: </footer>
+LINE: 65
+----------------------------------------------------------------
+MOD: Google Feed Sitemap Fix
+FILE: catalog/controller/feed/google_sitemap.php
+CODE: $this->model_tool_image->resize($product['image'], $this->config->get('config_image_popup_width'), $this->config->get('config_image_popup_height'))
+LINE: 19
+CODE: '<image:caption>' . $product['name'] . '</image:caption>'
+LINE: 20
+CODE: '<image:title>' . $product['name'] . '</image:title>';
+LINE: 21
+----------------------------------------------------------------
+MOD: Local copy OCMOD by iSenseLabs
+FILE: admin/controller/extension/installer.php
+CODE: 'url'  => str_replace('&amp;', '&', $this->url->link('extension/installer/ftp', 'token=' . $this->session->data['token'],
+LINE: 132
+CODE: public function unzip() {
+LINE: 293
+----------------------------------------------------------------
+MOD: Menu Item for the Acute Category Manager
+FILE: admin/view/template/common/menu.tpl
+CODE: <li><a href="<?php echo $category; ?>"><?php echo $text_category; ?></a></li>
+LINE: 4
+FILE: admin/controller/common/menu.php
+CODE: $this->load->language('common/menu');
+LINE: 3
+----------------------------------------------------------------
+2016-07-06 12:46:13 - MOD: Modification Default
+FILE: system/engine/action.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 39
+FILE: system/engine/loader.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 20
+LINE: 59
+LINE: 80
+LINE: 99
+FILE: system/library/config.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 23
+FILE: system/library/language.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 25
+LINE: 31
+----------------------------------------------------------------
+MOD: 3rd Tier Category Module
+FILE: catalog/controller/module/category.php
+CODE: $children_data[] = array
+LINE: 56
+CODE: 'name' => $child['name'] . ($this->config->get('config_product_count') ? ' (' . $this->model_catalog_product->getTotalProducts($filter_data) . ')' : ''),
+LINE: 61
+CODE: $this->load->model('catalog/category');
+LINE: 32
+FILE: catalog/view/theme/default/template/module/category.tpl
+CODE: <a href="<?php echo $child['href']; ?>" class="list-group-item active">&nbsp;&nbsp;&nbsp;- <?php echo $child['name']; ?></a>
+LINE: 18
+FILE: catalog/view/theme/holshop/template/module/category.tpl
+CODE: <a href="<?php echo $child['href']; ?>" class="list-group-item active">&nbsp;&nbsp;&nbsp;- <?php echo $child['name']; ?></a>
+LINE: 18
+----------------------------------------------------------------
+MOD: Ajax Quick Checkout
+FILE: catalog/controller/checkout/checkout.php
+CODE: if (file_exists(DIR_TEMPLATE . $this->config->get('config_template') . '/template/checkout/checkout.tpl')) {
+LINE: 90
+CODE: $this->response->setOutput($this->load->view('checkout/checkout', $data));
+NOT FOUND!
+CODE: $data['header'] = $this->load->controller('common/header');
+LINE: 93
+FILE: system/library/tax.php
+CODE: final class Tax {
+LINE: 7
+----------------------------------------------------------------
+MOD: EmailVerification
+FILE: catalog/model/account/customer.php
+CODE: if ($this->config->get('config_account_mail')) {
+LINE: 76
+FILE: catalog/view/theme/default/template/account/login.tpl
+CODE: <div class="row"><?php echo $column_left; ?>
+LINE: 18
+FILE: catalog/view/theme/holshop/template/account/login.tpl
+CODE: <div class="row"><?php echo $column_left; ?>
+LINE: 18
+FILE: catalog/controller/account/success.php
+CODE: $data['column_left'] = $this->load->controller('common/column_left');
+LINE: 64
+FILE: catalog/controller/account/login.php
+CODE: if ($customer_info && !$customer_info['approved']) {
+LINE: 208
+CODE: $data['button_login'] = $this->language->get('button_login');
+LINE: 139
+----------------------------------------------------------------
+MOD: Google Feed Sitemap Fix
+FILE: catalog/controller/feed/google_sitemap.php
+CODE: $this->model_tool_image->resize($product['image'], $this->config->get('config_image_popup_width'), $this->config->get('config_image_popup_height'))
+LINE: 19
+CODE: '<image:caption>' . $product['name'] . '</image:caption>'
+LINE: 20
+CODE: '<image:title>' . $product['name'] . '</image:title>';
+LINE: 21
+----------------------------------------------------------------
+MOD: Local copy OCMOD by iSenseLabs
+FILE: admin/controller/extension/installer.php
+CODE: 'url'  => str_replace('&amp;', '&', $this->url->link('extension/installer/ftp', 'token=' . $this->session->data['token'],
+LINE: 132
+CODE: public function unzip() {
+LINE: 293
+----------------------------------------------------------------
+MOD: Menu Item for the Acute Category Manager
+FILE: admin/view/template/common/menu.tpl
+CODE: <li><a href="<?php echo $category; ?>"><?php echo $text_category; ?></a></li>
+LINE: 4
+FILE: admin/controller/common/menu.php
+CODE: $this->load->language('common/menu');
+LINE: 3
+----------------------------------------------------------------
+2016-07-06 12:47:48 - MOD: Modification Default
+FILE: system/engine/action.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 39
+FILE: system/engine/loader.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 20
+LINE: 59
+LINE: 80
+LINE: 99
+FILE: system/library/config.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 23
+FILE: system/library/language.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 25
+LINE: 31
+----------------------------------------------------------------
+MOD: 3rd Tier Category Module
+FILE: catalog/controller/module/category.php
+CODE: $children_data[] = array
+LINE: 56
+CODE: 'name' => $child['name'] . ($this->config->get('config_product_count') ? ' (' . $this->model_catalog_product->getTotalProducts($filter_data) . ')' : ''),
+LINE: 61
+CODE: $this->load->model('catalog/category');
+LINE: 32
+FILE: catalog/view/theme/default/template/module/category.tpl
+CODE: <a href="<?php echo $child['href']; ?>" class="list-group-item active">&nbsp;&nbsp;&nbsp;- <?php echo $child['name']; ?></a>
+LINE: 18
+FILE: catalog/view/theme/holshop/template/module/category.tpl
+CODE: <a href="<?php echo $child['href']; ?>" class="list-group-item active">&nbsp;&nbsp;&nbsp;- <?php echo $child['name']; ?></a>
+LINE: 18
+----------------------------------------------------------------
+MOD: Ajax Quick Checkout
+FILE: catalog/controller/checkout/checkout.php
+CODE: if (file_exists(DIR_TEMPLATE . $this->config->get('config_template') . '/template/checkout/checkout.tpl')) {
+LINE: 90
+CODE: $this->response->setOutput($this->load->view('checkout/checkout', $data));
+NOT FOUND!
+CODE: $data['header'] = $this->load->controller('common/header');
+LINE: 93
+FILE: system/library/tax.php
+CODE: final class Tax {
+LINE: 7
+----------------------------------------------------------------
+MOD: EmailVerification
+FILE: catalog/model/account/customer.php
+CODE: if ($this->config->get('config_account_mail')) {
+LINE: 76
+FILE: catalog/view/theme/default/template/account/login.tpl
+CODE: <div class="row"><?php echo $column_left; ?>
+LINE: 18
+FILE: catalog/view/theme/holshop/template/account/login.tpl
+CODE: <div class="row"><?php echo $column_left; ?>
+LINE: 18
+FILE: catalog/controller/account/success.php
+CODE: $data['column_left'] = $this->load->controller('common/column_left');
+LINE: 64
+FILE: catalog/controller/account/login.php
+CODE: if ($customer_info && !$customer_info['approved']) {
+LINE: 208
+CODE: $data['button_login'] = $this->language->get('button_login');
+LINE: 139
+----------------------------------------------------------------
+MOD: Google Feed Sitemap Fix
+FILE: catalog/controller/feed/google_sitemap.php
+CODE: $this->model_tool_image->resize($product['image'], $this->config->get('config_image_popup_width'), $this->config->get('config_image_popup_height'))
+LINE: 19
+CODE: '<image:caption>' . $product['name'] . '</image:caption>'
+LINE: 20
+CODE: '<image:title>' . $product['name'] . '</image:title>';
+LINE: 21
+----------------------------------------------------------------
+MOD: Local copy OCMOD by iSenseLabs
+FILE: admin/controller/extension/installer.php
+CODE: 'url'  => str_replace('&amp;', '&', $this->url->link('extension/installer/ftp', 'token=' . $this->session->data['token'],
+LINE: 132
+CODE: public function unzip() {
+LINE: 293
+----------------------------------------------------------------
+MOD: Menu Item for the Acute Category Manager
+FILE: admin/view/template/common/menu.tpl
+CODE: <li><a href="<?php echo $category; ?>"><?php echo $text_category; ?></a></li>
+LINE: 4
+FILE: admin/controller/common/menu.php
+CODE: $this->load->language('common/menu');
+LINE: 3
+----------------------------------------------------------------
+2016-07-06 12:49:42 - MOD: Modification Default
+FILE: system/engine/action.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 39
+FILE: system/engine/loader.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 20
+LINE: 59
+LINE: 80
+LINE: 99
+FILE: system/library/config.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 23
+FILE: system/library/language.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 25
+LINE: 31
+----------------------------------------------------------------
+MOD: 3rd Tier Category Module
+FILE: catalog/controller/module/category.php
+CODE: $children_data[] = array
+LINE: 56
+CODE: 'name' => $child['name'] . ($this->config->get('config_product_count') ? ' (' . $this->model_catalog_product->getTotalProducts($filter_data) . ')' : ''),
+LINE: 61
+CODE: $this->load->model('catalog/category');
+LINE: 32
+FILE: catalog/view/theme/default/template/module/category.tpl
+CODE: <a href="<?php echo $child['href']; ?>" class="list-group-item active">&nbsp;&nbsp;&nbsp;- <?php echo $child['name']; ?></a>
+LINE: 18
+FILE: catalog/view/theme/holshop/template/module/category.tpl
+CODE: <a href="<?php echo $child['href']; ?>" class="list-group-item active">&nbsp;&nbsp;&nbsp;- <?php echo $child['name']; ?></a>
+LINE: 18
+----------------------------------------------------------------
+MOD: Ajax Quick Checkout
+FILE: catalog/controller/checkout/checkout.php
+CODE: if (file_exists(DIR_TEMPLATE . $this->config->get('config_template') . '/template/checkout/checkout.tpl')) {
+LINE: 90
+CODE: $this->response->setOutput($this->load->view('checkout/checkout', $data));
+NOT FOUND!
+CODE: $data['header'] = $this->load->controller('common/header');
+LINE: 93
+FILE: system/library/tax.php
+CODE: final class Tax {
+LINE: 7
+----------------------------------------------------------------
+MOD: EmailVerification
+FILE: catalog/model/account/customer.php
+CODE: if ($this->config->get('config_account_mail')) {
+LINE: 76
+FILE: catalog/view/theme/default/template/account/login.tpl
+CODE: <div class="row"><?php echo $column_left; ?>
+LINE: 18
+FILE: catalog/view/theme/holshop/template/account/login.tpl
+CODE: <div class="row"><?php echo $column_left; ?>
+LINE: 18
+FILE: catalog/controller/account/success.php
+CODE: $data['column_left'] = $this->load->controller('common/column_left');
+LINE: 64
+FILE: catalog/controller/account/login.php
+CODE: if ($customer_info && !$customer_info['approved']) {
+LINE: 208
+CODE: $data['button_login'] = $this->language->get('button_login');
+LINE: 139
+----------------------------------------------------------------
+MOD: Google Feed Sitemap Fix
+FILE: catalog/controller/feed/google_sitemap.php
+CODE: $this->model_tool_image->resize($product['image'], $this->config->get('config_image_popup_width'), $this->config->get('config_image_popup_height'))
+LINE: 19
+CODE: '<image:caption>' . $product['name'] . '</image:caption>'
+LINE: 20
+CODE: '<image:title>' . $product['name'] . '</image:title>';
+LINE: 21
+----------------------------------------------------------------
+MOD: Local copy OCMOD by iSenseLabs
+FILE: admin/controller/extension/installer.php
+CODE: 'url'  => str_replace('&amp;', '&', $this->url->link('extension/installer/ftp', 'token=' . $this->session->data['token'],
+LINE: 132
+CODE: public function unzip() {
+LINE: 293
+----------------------------------------------------------------
+MOD: Menu Item for the Acute Category Manager
+FILE: admin/view/template/common/menu.tpl
+CODE: <li><a href="<?php echo $category; ?>"><?php echo $text_category; ?></a></li>
+LINE: 4
+FILE: admin/controller/common/menu.php
+CODE: $this->load->language('common/menu');
+LINE: 3
+----------------------------------------------------------------
+2016-07-06 13:02:29 - MOD: Modification Default
+FILE: system/engine/action.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 39
+FILE: system/engine/loader.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 20
+LINE: 59
+LINE: 80
+LINE: 99
+FILE: system/library/config.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 23
+FILE: system/library/language.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 25
+LINE: 31
+----------------------------------------------------------------
+MOD: 3rd Tier Category Module
+FILE: catalog/controller/module/category.php
+CODE: $children_data[] = array
+LINE: 56
+CODE: 'name' => $child['name'] . ($this->config->get('config_product_count') ? ' (' . $this->model_catalog_product->getTotalProducts($filter_data) . ')' : ''),
+LINE: 61
+CODE: $this->load->model('catalog/category');
+LINE: 32
+FILE: catalog/view/theme/default/template/module/category.tpl
+CODE: <a href="<?php echo $child['href']; ?>" class="list-group-item active">&nbsp;&nbsp;&nbsp;- <?php echo $child['name']; ?></a>
+LINE: 18
+FILE: catalog/view/theme/holshop/template/module/category.tpl
+CODE: <a href="<?php echo $child['href']; ?>" class="list-group-item active">&nbsp;&nbsp;&nbsp;- <?php echo $child['name']; ?></a>
+LINE: 18
+----------------------------------------------------------------
+MOD: Ajax Quick Checkout
+FILE: catalog/controller/checkout/checkout.php
+CODE: if (file_exists(DIR_TEMPLATE . $this->config->get('config_template') . '/template/checkout/checkout.tpl')) {
+LINE: 90
+CODE: $this->response->setOutput($this->load->view('checkout/checkout', $data));
+NOT FOUND!
+CODE: $data['header'] = $this->load->controller('common/header');
+LINE: 93
+FILE: system/library/tax.php
+CODE: final class Tax {
+LINE: 7
+----------------------------------------------------------------
+MOD: EmailVerification
+FILE: catalog/model/account/customer.php
+CODE: if ($this->config->get('config_account_mail')) {
+LINE: 76
+FILE: catalog/view/theme/default/template/account/login.tpl
+CODE: <div class="row"><?php echo $column_left; ?>
+LINE: 18
+FILE: catalog/view/theme/holshop/template/account/login.tpl
+CODE: <div class="row"><?php echo $column_left; ?>
+LINE: 18
+FILE: catalog/controller/account/success.php
+CODE: $data['column_left'] = $this->load->controller('common/column_left');
+LINE: 64
+FILE: catalog/controller/account/login.php
+CODE: if ($customer_info && !$customer_info['approved']) {
+LINE: 208
+CODE: $data['button_login'] = $this->language->get('button_login');
+LINE: 139
+----------------------------------------------------------------
+MOD: Google Feed Sitemap Fix
+FILE: catalog/controller/feed/google_sitemap.php
+CODE: $this->model_tool_image->resize($product['image'], $this->config->get('config_image_popup_width'), $this->config->get('config_image_popup_height'))
+LINE: 19
+CODE: '<image:caption>' . $product['name'] . '</image:caption>'
+LINE: 20
+CODE: '<image:title>' . $product['name'] . '</image:title>';
+LINE: 21
+----------------------------------------------------------------
+MOD: Local copy OCMOD by iSenseLabs
+FILE: admin/controller/extension/installer.php
+CODE: 'url'  => str_replace('&amp;', '&', $this->url->link('extension/installer/ftp', 'token=' . $this->session->data['token'],
+LINE: 132
+CODE: public function unzip() {
+LINE: 293
+----------------------------------------------------------------
+MOD: Menu Item for the Acute Category Manager
+FILE: admin/view/template/common/menu.tpl
+CODE: <li><a href="<?php echo $category; ?>"><?php echo $text_category; ?></a></li>
+LINE: 4
+FILE: admin/controller/common/menu.php
+CODE: $this->load->language('common/menu');
+LINE: 3
+----------------------------------------------------------------
+2016-07-06 13:03:26 - MOD: Modification Default
+FILE: system/engine/action.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 39
+FILE: system/engine/loader.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 20
+LINE: 59
+LINE: 80
+LINE: 99
+FILE: system/library/config.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 23
+FILE: system/library/language.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 25
+LINE: 31
+----------------------------------------------------------------
+MOD: 3rd Tier Category Module
+FILE: catalog/controller/module/category.php
+CODE: $children_data[] = array
+LINE: 56
+CODE: 'name' => $child['name'] . ($this->config->get('config_product_count') ? ' (' . $this->model_catalog_product->getTotalProducts($filter_data) . ')' : ''),
+LINE: 61
+CODE: $this->load->model('catalog/category');
+LINE: 32
+FILE: catalog/view/theme/default/template/module/category.tpl
+CODE: <a href="<?php echo $child['href']; ?>" class="list-group-item active">&nbsp;&nbsp;&nbsp;- <?php echo $child['name']; ?></a>
+LINE: 18
+FILE: catalog/view/theme/holshop/template/module/category.tpl
+CODE: <a href="<?php echo $child['href']; ?>" class="list-group-item active">&nbsp;&nbsp;&nbsp;- <?php echo $child['name']; ?></a>
+LINE: 18
+----------------------------------------------------------------
+MOD: Ajax Quick Checkout
+FILE: catalog/controller/checkout/checkout.php
+CODE: if (file_exists(DIR_TEMPLATE . $this->config->get('config_template') . '/template/checkout/checkout.tpl')) {
+LINE: 90
+CODE: $this->response->setOutput($this->load->view('checkout/checkout', $data));
+NOT FOUND!
+CODE: $data['header'] = $this->load->controller('common/header');
+LINE: 93
+FILE: system/library/tax.php
+CODE: final class Tax {
+LINE: 7
+----------------------------------------------------------------
+MOD: EmailVerification
+FILE: catalog/model/account/customer.php
+CODE: if ($this->config->get('config_account_mail')) {
+LINE: 76
+FILE: catalog/view/theme/default/template/account/login.tpl
+CODE: <div class="row"><?php echo $column_left; ?>
+LINE: 18
+FILE: catalog/view/theme/holshop/template/account/login.tpl
+CODE: <div class="row"><?php echo $column_left; ?>
+LINE: 18
+FILE: catalog/controller/account/success.php
+CODE: $data['column_left'] = $this->load->controller('common/column_left');
+LINE: 64
+FILE: catalog/controller/account/login.php
+CODE: if ($customer_info && !$customer_info['approved']) {
+LINE: 208
+CODE: $data['button_login'] = $this->language->get('button_login');
+LINE: 139
+----------------------------------------------------------------
+MOD: Google Feed Sitemap Fix
+FILE: catalog/controller/feed/google_sitemap.php
+CODE: $this->model_tool_image->resize($product['image'], $this->config->get('config_image_popup_width'), $this->config->get('config_image_popup_height'))
+LINE: 19
+CODE: '<image:caption>' . $product['name'] . '</image:caption>'
+LINE: 20
+CODE: '<image:title>' . $product['name'] . '</image:title>';
+LINE: 21
+----------------------------------------------------------------
+MOD: Local copy OCMOD by iSenseLabs
+FILE: admin/controller/extension/installer.php
+CODE: 'url'  => str_replace('&amp;', '&', $this->url->link('extension/installer/ftp', 'token=' . $this->session->data['token'],
+LINE: 132
+CODE: public function unzip() {
+LINE: 293
+----------------------------------------------------------------
+MOD: Menu Item for the Acute Category Manager
+FILE: admin/view/template/common/menu.tpl
+CODE: <li><a href="<?php echo $category; ?>"><?php echo $text_category; ?></a></li>
+LINE: 4
+FILE: admin/controller/common/menu.php
+CODE: $this->load->language('common/menu');
+LINE: 3
+----------------------------------------------------------------
+2016-07-06 13:16:38 - MOD: Modification Default
+FILE: system/engine/action.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 39
+FILE: system/engine/loader.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 20
+LINE: 59
+LINE: 80
+LINE: 99
+FILE: system/library/config.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 23
+FILE: system/library/language.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 25
+LINE: 31
+----------------------------------------------------------------
+MOD: 3rd Tier Category Module
+FILE: catalog/controller/module/category.php
+CODE: $children_data[] = array
+LINE: 56
+CODE: 'name' => $child['name'] . ($this->config->get('config_product_count') ? ' (' . $this->model_catalog_product->getTotalProducts($filter_data) . ')' : ''),
+LINE: 61
+CODE: $this->load->model('catalog/category');
+LINE: 32
+FILE: catalog/view/theme/default/template/module/category.tpl
+CODE: <a href="<?php echo $child['href']; ?>" class="list-group-item active">&nbsp;&nbsp;&nbsp;- <?php echo $child['name']; ?></a>
+LINE: 18
+FILE: catalog/view/theme/holshop/template/module/category.tpl
+CODE: <a href="<?php echo $child['href']; ?>" class="list-group-item active">&nbsp;&nbsp;&nbsp;- <?php echo $child['name']; ?></a>
+LINE: 18
+----------------------------------------------------------------
+MOD: Ajax Quick Checkout
+FILE: catalog/controller/checkout/checkout.php
+CODE: if (file_exists(DIR_TEMPLATE . $this->config->get('config_template') . '/template/checkout/checkout.tpl')) {
+LINE: 90
+CODE: $this->response->setOutput($this->load->view('checkout/checkout', $data));
+NOT FOUND!
+CODE: $data['header'] = $this->load->controller('common/header');
+LINE: 93
+FILE: system/library/tax.php
+CODE: final class Tax {
+LINE: 7
+----------------------------------------------------------------
+MOD: EmailVerification
+FILE: catalog/model/account/customer.php
+CODE: if ($this->config->get('config_account_mail')) {
+LINE: 76
+FILE: catalog/view/theme/default/template/account/login.tpl
+CODE: <div class="row"><?php echo $column_left; ?>
+LINE: 18
+FILE: catalog/view/theme/holshop/template/account/login.tpl
+CODE: <div class="row"><?php echo $column_left; ?>
+LINE: 18
+FILE: catalog/controller/account/success.php
+CODE: $data['column_left'] = $this->load->controller('common/column_left');
+LINE: 64
+FILE: catalog/controller/account/login.php
+CODE: if ($customer_info && !$customer_info['approved']) {
+LINE: 208
+CODE: $data['button_login'] = $this->language->get('button_login');
+LINE: 139
+----------------------------------------------------------------
+MOD: Google Feed Sitemap Fix
+FILE: catalog/controller/feed/google_sitemap.php
+CODE: $this->model_tool_image->resize($product['image'], $this->config->get('config_image_popup_width'), $this->config->get('config_image_popup_height'))
+LINE: 19
+CODE: '<image:caption>' . $product['name'] . '</image:caption>'
+LINE: 20
+CODE: '<image:title>' . $product['name'] . '</image:title>';
+LINE: 21
+----------------------------------------------------------------
+MOD: Local copy OCMOD by iSenseLabs
+FILE: admin/controller/extension/installer.php
+CODE: 'url'  => str_replace('&amp;', '&', $this->url->link('extension/installer/ftp', 'token=' . $this->session->data['token'],
+LINE: 132
+CODE: public function unzip() {
+LINE: 293
+----------------------------------------------------------------
+MOD: Menu Item for the Acute Category Manager
+FILE: admin/view/template/common/menu.tpl
+CODE: <li><a href="<?php echo $category; ?>"><?php echo $text_category; ?></a></li>
+LINE: 4
+FILE: admin/controller/common/menu.php
+CODE: $this->load->language('common/menu');
+LINE: 3
+----------------------------------------------------------------
+2016-07-06 13:58:31 - MOD: Modification Default
+FILE: system/engine/action.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 39
+FILE: system/engine/loader.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 20
+LINE: 59
+LINE: 80
+LINE: 99
+FILE: system/library/config.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 23
+FILE: system/library/language.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 25
+LINE: 31
+----------------------------------------------------------------
+MOD: 3rd Tier Category Module
+FILE: catalog/controller/module/category.php
+CODE: $children_data[] = array
+LINE: 56
+CODE: 'name' => $child['name'] . ($this->config->get('config_product_count') ? ' (' . $this->model_catalog_product->getTotalProducts($filter_data) . ')' : ''),
+LINE: 61
+CODE: $this->load->model('catalog/category');
+LINE: 32
+FILE: catalog/view/theme/default/template/module/category.tpl
+CODE: <a href="<?php echo $child['href']; ?>" class="list-group-item active">&nbsp;&nbsp;&nbsp;- <?php echo $child['name']; ?></a>
+LINE: 18
+FILE: catalog/view/theme/holshop/template/module/category.tpl
+CODE: <a href="<?php echo $child['href']; ?>" class="list-group-item active">&nbsp;&nbsp;&nbsp;- <?php echo $child['name']; ?></a>
+LINE: 18
+----------------------------------------------------------------
+MOD: Ajax Quick Checkout
+FILE: catalog/controller/checkout/checkout.php
+CODE: if (file_exists(DIR_TEMPLATE . $this->config->get('config_template') . '/template/checkout/checkout.tpl')) {
+LINE: 90
+CODE: $this->response->setOutput($this->load->view('checkout/checkout', $data));
+NOT FOUND!
+CODE: $data['header'] = $this->load->controller('common/header');
+LINE: 93
+FILE: system/library/tax.php
+CODE: final class Tax {
+LINE: 7
+----------------------------------------------------------------
+MOD: EmailVerification
+FILE: catalog/model/account/customer.php
+CODE: if ($this->config->get('config_account_mail')) {
+LINE: 76
+FILE: catalog/view/theme/default/template/account/login.tpl
+CODE: <div class="row"><?php echo $column_left; ?>
+LINE: 18
+FILE: catalog/view/theme/holshop/template/account/login.tpl
+CODE: <div class="row"><?php echo $column_left; ?>
+LINE: 18
+FILE: catalog/controller/account/success.php
+CODE: $data['column_left'] = $this->load->controller('common/column_left');
+LINE: 64
+FILE: catalog/controller/account/login.php
+CODE: if ($customer_info && !$customer_info['approved']) {
+LINE: 208
+CODE: $data['button_login'] = $this->language->get('button_login');
+LINE: 139
+----------------------------------------------------------------
+MOD: Google Feed Sitemap Fix
+FILE: catalog/controller/feed/google_sitemap.php
+CODE: $this->model_tool_image->resize($product['image'], $this->config->get('config_image_popup_width'), $this->config->get('config_image_popup_height'))
+LINE: 19
+CODE: '<image:caption>' . $product['name'] . '</image:caption>'
+LINE: 20
+CODE: '<image:title>' . $product['name'] . '</image:title>';
+LINE: 21
+----------------------------------------------------------------
+MOD: Local copy OCMOD by iSenseLabs
+FILE: admin/controller/extension/installer.php
+CODE: 'url'  => str_replace('&amp;', '&', $this->url->link('extension/installer/ftp', 'token=' . $this->session->data['token'],
+LINE: 132
+CODE: public function unzip() {
+LINE: 293
+----------------------------------------------------------------
+MOD: Menu Item for the Acute Category Manager
+FILE: admin/view/template/common/menu.tpl
+CODE: <li><a href="<?php echo $category; ?>"><?php echo $text_category; ?></a></li>
+LINE: 4
+FILE: admin/controller/common/menu.php
+CODE: $this->load->language('common/menu');
+LINE: 3
+----------------------------------------------------------------
+2016-07-06 13:59:56 - MOD: Modification Default
+FILE: system/engine/action.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 39
+FILE: system/engine/loader.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 20
+LINE: 59
+LINE: 80
+LINE: 99
+FILE: system/library/config.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 23
+FILE: system/library/language.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 25
+LINE: 31
+----------------------------------------------------------------
+MOD: 3rd Tier Category Module
+FILE: catalog/controller/module/category.php
+CODE: $children_data[] = array
+LINE: 56
+CODE: 'name' => $child['name'] . ($this->config->get('config_product_count') ? ' (' . $this->model_catalog_product->getTotalProducts($filter_data) . ')' : ''),
+LINE: 61
+CODE: $this->load->model('catalog/category');
+LINE: 32
+FILE: catalog/view/theme/default/template/module/category.tpl
+CODE: <a href="<?php echo $child['href']; ?>" class="list-group-item active">&nbsp;&nbsp;&nbsp;- <?php echo $child['name']; ?></a>
+LINE: 18
+FILE: catalog/view/theme/holshop/template/module/category.tpl
+CODE: <a href="<?php echo $child['href']; ?>" class="list-group-item active">&nbsp;&nbsp;&nbsp;- <?php echo $child['name']; ?></a>
+LINE: 18
+----------------------------------------------------------------
+MOD: Ajax Quick Checkout
+FILE: catalog/controller/checkout/checkout.php
+CODE: if (file_exists(DIR_TEMPLATE . $this->config->get('config_template') . '/template/checkout/checkout.tpl')) {
+LINE: 90
+CODE: $this->response->setOutput($this->load->view('checkout/checkout', $data));
+NOT FOUND!
+CODE: $data['header'] = $this->load->controller('common/header');
+LINE: 93
+FILE: system/library/tax.php
+CODE: final class Tax {
+LINE: 7
+----------------------------------------------------------------
+MOD: EmailVerification
+FILE: catalog/model/account/customer.php
+CODE: if ($this->config->get('config_account_mail')) {
+LINE: 76
+FILE: catalog/view/theme/default/template/account/login.tpl
+CODE: <div class="row"><?php echo $column_left; ?>
+LINE: 18
+FILE: catalog/view/theme/holshop/template/account/login.tpl
+CODE: <div class="row"><?php echo $column_left; ?>
+LINE: 18
+FILE: catalog/controller/account/success.php
+CODE: $data['column_left'] = $this->load->controller('common/column_left');
+LINE: 64
+FILE: catalog/controller/account/login.php
+CODE: if ($customer_info && !$customer_info['approved']) {
+LINE: 208
+CODE: $data['button_login'] = $this->language->get('button_login');
+LINE: 139
+----------------------------------------------------------------
+MOD: Google Feed Sitemap Fix
+FILE: catalog/controller/feed/google_sitemap.php
+CODE: $this->model_tool_image->resize($product['image'], $this->config->get('config_image_popup_width'), $this->config->get('config_image_popup_height'))
+LINE: 19
+CODE: '<image:caption>' . $product['name'] . '</image:caption>'
+LINE: 20
+CODE: '<image:title>' . $product['name'] . '</image:title>';
+LINE: 21
+----------------------------------------------------------------
+MOD: Local copy OCMOD by iSenseLabs
+FILE: admin/controller/extension/installer.php
+CODE: 'url'  => str_replace('&amp;', '&', $this->url->link('extension/installer/ftp', 'token=' . $this->session->data['token'],
+LINE: 132
+CODE: public function unzip() {
+LINE: 293
+----------------------------------------------------------------
+MOD: Menu Item for the Acute Category Manager
+FILE: admin/view/template/common/menu.tpl
+CODE: <li><a href="<?php echo $category; ?>"><?php echo $text_category; ?></a></li>
+LINE: 4
+FILE: admin/controller/common/menu.php
+CODE: $this->load->language('common/menu');
+LINE: 3
+----------------------------------------------------------------
+2016-07-06 14:05:45 - MOD: Modification Default
+FILE: system/engine/action.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 39
+FILE: system/engine/loader.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 20
+LINE: 59
+LINE: 80
+LINE: 99
+FILE: system/library/config.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 23
+FILE: system/library/language.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 25
+LINE: 31
+----------------------------------------------------------------
+MOD: 3rd Tier Category Module
+FILE: catalog/controller/module/category.php
+CODE: $children_data[] = array
+LINE: 56
+CODE: 'name' => $child['name'] . ($this->config->get('config_product_count') ? ' (' . $this->model_catalog_product->getTotalProducts($filter_data) . ')' : ''),
+LINE: 61
+CODE: $this->load->model('catalog/category');
+LINE: 32
+FILE: catalog/view/theme/default/template/module/category.tpl
+CODE: <a href="<?php echo $child['href']; ?>" class="list-group-item active">&nbsp;&nbsp;&nbsp;- <?php echo $child['name']; ?></a>
+LINE: 18
+FILE: catalog/view/theme/holshop/template/module/category.tpl
+CODE: <a href="<?php echo $child['href']; ?>" class="list-group-item active">&nbsp;&nbsp;&nbsp;- <?php echo $child['name']; ?></a>
+LINE: 18
+----------------------------------------------------------------
+MOD: EmailVerification
+FILE: catalog/model/account/customer.php
+CODE: if ($this->config->get('config_account_mail')) {
+LINE: 76
+FILE: catalog/view/theme/default/template/account/login.tpl
+CODE: <div class="row"><?php echo $column_left; ?>
+LINE: 18
+FILE: catalog/view/theme/holshop/template/account/login.tpl
+CODE: <div class="row"><?php echo $column_left; ?>
+LINE: 18
+FILE: catalog/controller/account/success.php
+CODE: $data['column_left'] = $this->load->controller('common/column_left');
+LINE: 64
+FILE: catalog/controller/account/login.php
+CODE: if ($customer_info && !$customer_info['approved']) {
+LINE: 208
+CODE: $data['button_login'] = $this->language->get('button_login');
+LINE: 139
+----------------------------------------------------------------
+MOD: Google Feed Sitemap Fix
+FILE: catalog/controller/feed/google_sitemap.php
+CODE: $this->model_tool_image->resize($product['image'], $this->config->get('config_image_popup_width'), $this->config->get('config_image_popup_height'))
+LINE: 19
+CODE: '<image:caption>' . $product['name'] . '</image:caption>'
+LINE: 20
+CODE: '<image:title>' . $product['name'] . '</image:title>';
+LINE: 21
+----------------------------------------------------------------
+MOD: Local copy OCMOD by iSenseLabs
+FILE: admin/controller/extension/installer.php
+CODE: 'url'  => str_replace('&amp;', '&', $this->url->link('extension/installer/ftp', 'token=' . $this->session->data['token'],
+LINE: 132
+CODE: public function unzip() {
+LINE: 293
+----------------------------------------------------------------
+MOD: Menu Item for the Acute Category Manager
+FILE: admin/view/template/common/menu.tpl
+CODE: <li><a href="<?php echo $category; ?>"><?php echo $text_category; ?></a></li>
+LINE: 4
+FILE: admin/controller/common/menu.php
+CODE: $this->load->language('common/menu');
+LINE: 3
+----------------------------------------------------------------
+2016-07-06 14:08:50 - MOD: Modification Default
+FILE: system/engine/action.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 39
+FILE: system/engine/loader.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 20
+LINE: 59
+LINE: 80
+LINE: 99
+FILE: system/library/config.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 23
+FILE: system/library/language.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 25
+LINE: 31
+----------------------------------------------------------------
+MOD: 3rd Tier Category Module
+FILE: catalog/controller/module/category.php
+CODE: $children_data[] = array
+LINE: 56
+CODE: 'name' => $child['name'] . ($this->config->get('config_product_count') ? ' (' . $this->model_catalog_product->getTotalProducts($filter_data) . ')' : ''),
+LINE: 61
+CODE: $this->load->model('catalog/category');
+LINE: 32
+FILE: catalog/view/theme/default/template/module/category.tpl
+CODE: <a href="<?php echo $child['href']; ?>" class="list-group-item active">&nbsp;&nbsp;&nbsp;- <?php echo $child['name']; ?></a>
+LINE: 18
+FILE: catalog/view/theme/holshop/template/module/category.tpl
+CODE: <a href="<?php echo $child['href']; ?>" class="list-group-item active">&nbsp;&nbsp;&nbsp;- <?php echo $child['name']; ?></a>
+LINE: 18
+----------------------------------------------------------------
+MOD: callme_1click
+FILE: catalog/view/theme/default/template/product/product.tpl
+CODE: <button type="button" id="button-cart" data-loading-text="<?php echo $text_loading; ?>" class="btn btn-primary btn-lg btn-block"><?php echo $button_cart; ?></button>
+LINE: 310
+FILE: catalog/view/theme/holshop/template/product/product.tpl
+CODE: <button type="button" id="button-cart" data-loading-text="<?php echo $text_loading; ?>" class="btn btn-primary btn-lg btn-block"><?php echo $button_cart; ?></button>
+LINE: 312
+----------------------------------------------------------------
+MOD: EmailVerification
+FILE: catalog/model/account/customer.php
+CODE: if ($this->config->get('config_account_mail')) {
+LINE: 76
+FILE: catalog/view/theme/default/template/account/login.tpl
+CODE: <div class="row"><?php echo $column_left; ?>
+LINE: 18
+FILE: catalog/view/theme/holshop/template/account/login.tpl
+CODE: <div class="row"><?php echo $column_left; ?>
+LINE: 18
+FILE: catalog/controller/account/success.php
+CODE: $data['column_left'] = $this->load->controller('common/column_left');
+LINE: 64
+FILE: catalog/controller/account/login.php
+CODE: if ($customer_info && !$customer_info['approved']) {
+LINE: 208
+CODE: $data['button_login'] = $this->language->get('button_login');
+LINE: 139
+----------------------------------------------------------------
+MOD: Google Feed Sitemap Fix
+FILE: catalog/controller/feed/google_sitemap.php
+CODE: $this->model_tool_image->resize($product['image'], $this->config->get('config_image_popup_width'), $this->config->get('config_image_popup_height'))
+LINE: 19
+CODE: '<image:caption>' . $product['name'] . '</image:caption>'
+LINE: 20
+CODE: '<image:title>' . $product['name'] . '</image:title>';
+LINE: 21
+----------------------------------------------------------------
+MOD: Local copy OCMOD by iSenseLabs
+FILE: admin/controller/extension/installer.php
+CODE: 'url'  => str_replace('&amp;', '&', $this->url->link('extension/installer/ftp', 'token=' . $this->session->data['token'],
+LINE: 132
+CODE: public function unzip() {
+LINE: 293
+----------------------------------------------------------------
+MOD: Menu Item for the Acute Category Manager
+FILE: admin/view/template/common/menu.tpl
+CODE: <li><a href="<?php echo $category; ?>"><?php echo $text_category; ?></a></li>
+LINE: 4
+FILE: admin/controller/common/menu.php
+CODE: $this->load->language('common/menu');
+LINE: 3
+----------------------------------------------------------------
+2016-07-06 14:10:48 - MOD: Modification Default
+FILE: system/engine/action.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 39
+FILE: system/engine/loader.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 20
+LINE: 59
+LINE: 80
+LINE: 99
+FILE: system/library/config.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 23
+FILE: system/library/language.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 25
+LINE: 31
+----------------------------------------------------------------
+MOD: 3rd Tier Category Module
+FILE: catalog/controller/module/category.php
+CODE: $children_data[] = array
+LINE: 56
+CODE: 'name' => $child['name'] . ($this->config->get('config_product_count') ? ' (' . $this->model_catalog_product->getTotalProducts($filter_data) . ')' : ''),
+LINE: 61
+CODE: $this->load->model('catalog/category');
+LINE: 32
+FILE: catalog/view/theme/default/template/module/category.tpl
+CODE: <a href="<?php echo $child['href']; ?>" class="list-group-item active">&nbsp;&nbsp;&nbsp;- <?php echo $child['name']; ?></a>
+LINE: 18
+FILE: catalog/view/theme/holshop/template/module/category.tpl
+CODE: <a href="<?php echo $child['href']; ?>" class="list-group-item active">&nbsp;&nbsp;&nbsp;- <?php echo $child['name']; ?></a>
+LINE: 18
+----------------------------------------------------------------
+MOD: EmailVerification
+FILE: catalog/model/account/customer.php
+CODE: if ($this->config->get('config_account_mail')) {
+LINE: 76
+FILE: catalog/view/theme/default/template/account/login.tpl
+CODE: <div class="row"><?php echo $column_left; ?>
+LINE: 18
+FILE: catalog/view/theme/holshop/template/account/login.tpl
+CODE: <div class="row"><?php echo $column_left; ?>
+LINE: 18
+FILE: catalog/controller/account/success.php
+CODE: $data['column_left'] = $this->load->controller('common/column_left');
+LINE: 64
+FILE: catalog/controller/account/login.php
+CODE: if ($customer_info && !$customer_info['approved']) {
+LINE: 208
+CODE: $data['button_login'] = $this->language->get('button_login');
+LINE: 139
+----------------------------------------------------------------
+MOD: Google Feed Sitemap Fix
+FILE: catalog/controller/feed/google_sitemap.php
+CODE: $this->model_tool_image->resize($product['image'], $this->config->get('config_image_popup_width'), $this->config->get('config_image_popup_height'))
+LINE: 19
+CODE: '<image:caption>' . $product['name'] . '</image:caption>'
+LINE: 20
+CODE: '<image:title>' . $product['name'] . '</image:title>';
+LINE: 21
+----------------------------------------------------------------
+MOD: Local copy OCMOD by iSenseLabs
+FILE: admin/controller/extension/installer.php
+CODE: 'url'  => str_replace('&amp;', '&', $this->url->link('extension/installer/ftp', 'token=' . $this->session->data['token'],
+LINE: 132
+CODE: public function unzip() {
+LINE: 293
+----------------------------------------------------------------
+MOD: Menu Item for the Acute Category Manager
+FILE: admin/view/template/common/menu.tpl
+CODE: <li><a href="<?php echo $category; ?>"><?php echo $text_category; ?></a></li>
+LINE: 4
+FILE: admin/controller/common/menu.php
+CODE: $this->load->language('common/menu');
+LINE: 3
+----------------------------------------------------------------
+2016-07-06 14:46:40 - MOD: Modification Default
+FILE: system/engine/action.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 39
+FILE: system/engine/loader.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 20
+LINE: 59
+LINE: 80
+LINE: 99
+FILE: system/library/config.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 23
+FILE: system/library/language.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 25
+LINE: 31
+----------------------------------------------------------------
+MOD: 3rd Tier Category Module
+FILE: catalog/controller/module/category.php
+CODE: $children_data[] = array
+LINE: 56
+CODE: 'name' => $child['name'] . ($this->config->get('config_product_count') ? ' (' . $this->model_catalog_product->getTotalProducts($filter_data) . ')' : ''),
+LINE: 61
+CODE: $this->load->model('catalog/category');
+LINE: 32
+FILE: catalog/view/theme/default/template/module/category.tpl
+CODE: <a href="<?php echo $child['href']; ?>" class="list-group-item active">&nbsp;&nbsp;&nbsp;- <?php echo $child['name']; ?></a>
+LINE: 18
+FILE: catalog/view/theme/holshop/template/module/category.tpl
+CODE: <a href="<?php echo $child['href']; ?>" class="list-group-item active">&nbsp;&nbsp;&nbsp;- <?php echo $child['name']; ?></a>
+LINE: 18
+----------------------------------------------------------------
+MOD: Ajax Quick Checkout
+FILE: catalog/controller/checkout/checkout.php
+CODE: if (file_exists(DIR_TEMPLATE . $this->config->get('config_template') . '/template/checkout/checkout.tpl')) {
+LINE: 90
+CODE: $this->response->setOutput($this->load->view('checkout/checkout', $data));
+NOT FOUND!
+CODE: $data['header'] = $this->load->controller('common/header');
+LINE: 93
+FILE: system/library/tax.php
+CODE: final class Tax {
+LINE: 7
+----------------------------------------------------------------
+MOD: EmailVerification
+FILE: catalog/model/account/customer.php
+CODE: if ($this->config->get('config_account_mail')) {
+LINE: 76
+FILE: catalog/view/theme/default/template/account/login.tpl
+CODE: <div class="row"><?php echo $column_left; ?>
+LINE: 18
+FILE: catalog/view/theme/holshop/template/account/login.tpl
+CODE: <div class="row"><?php echo $column_left; ?>
+LINE: 18
+FILE: catalog/controller/account/success.php
+CODE: $data['column_left'] = $this->load->controller('common/column_left');
+LINE: 64
+FILE: catalog/controller/account/login.php
+CODE: if ($customer_info && !$customer_info['approved']) {
+LINE: 208
+CODE: $data['button_login'] = $this->language->get('button_login');
+LINE: 139
+----------------------------------------------------------------
+MOD: Google Feed Sitemap Fix
+FILE: catalog/controller/feed/google_sitemap.php
+CODE: $this->model_tool_image->resize($product['image'], $this->config->get('config_image_popup_width'), $this->config->get('config_image_popup_height'))
+LINE: 19
+CODE: '<image:caption>' . $product['name'] . '</image:caption>'
+LINE: 20
+CODE: '<image:title>' . $product['name'] . '</image:title>';
+LINE: 21
+----------------------------------------------------------------
+MOD: Local copy OCMOD by iSenseLabs
+FILE: admin/controller/extension/installer.php
+CODE: 'url'  => str_replace('&amp;', '&', $this->url->link('extension/installer/ftp', 'token=' . $this->session->data['token'],
+LINE: 132
+CODE: public function unzip() {
+LINE: 293
+----------------------------------------------------------------
+MOD: Menu Item for the Acute Category Manager
+FILE: admin/view/template/common/menu.tpl
+CODE: <li><a href="<?php echo $category; ?>"><?php echo $text_category; ?></a></li>
+LINE: 4
+FILE: admin/controller/common/menu.php
+CODE: $this->load->language('common/menu');
+LINE: 3
+----------------------------------------------------------------
+2016-07-06 15:00:49 - MOD: Modification Default
+FILE: system/engine/action.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 39
+FILE: system/engine/loader.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 20
+LINE: 59
+LINE: 80
+LINE: 99
+FILE: system/library/config.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 23
+FILE: system/library/language.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 25
+LINE: 31
+----------------------------------------------------------------
+MOD: 3rd Tier Category Module
+FILE: catalog/controller/module/category.php
+CODE: $children_data[] = array
+LINE: 56
+CODE: 'name' => $child['name'] . ($this->config->get('config_product_count') ? ' (' . $this->model_catalog_product->getTotalProducts($filter_data) . ')' : ''),
+LINE: 61
+CODE: $this->load->model('catalog/category');
+LINE: 32
+FILE: catalog/view/theme/default/template/module/category.tpl
+CODE: <a href="<?php echo $child['href']; ?>" class="list-group-item active">&nbsp;&nbsp;&nbsp;- <?php echo $child['name']; ?></a>
+LINE: 18
+FILE: catalog/view/theme/holshop/template/module/category.tpl
+CODE: <a href="<?php echo $child['href']; ?>" class="list-group-item active">&nbsp;&nbsp;&nbsp;- <?php echo $child['name']; ?></a>
+LINE: 18
+----------------------------------------------------------------
+MOD: Ajax Quick Checkout
+FILE: catalog/controller/checkout/checkout.php
+CODE: if (file_exists(DIR_TEMPLATE . $this->config->get('config_template') . '/template/checkout/checkout.tpl')) {
+LINE: 90
+CODE: $this->response->setOutput($this->load->view('checkout/checkout', $data));
+NOT FOUND!
+CODE: $data['header'] = $this->load->controller('common/header');
+LINE: 93
+FILE: system/library/tax.php
+CODE: final class Tax {
+LINE: 7
+----------------------------------------------------------------
+MOD: EmailVerification
+FILE: catalog/model/account/customer.php
+CODE: if ($this->config->get('config_account_mail')) {
+LINE: 76
+FILE: catalog/view/theme/default/template/account/login.tpl
+CODE: <div class="row"><?php echo $column_left; ?>
+LINE: 18
+FILE: catalog/view/theme/holshop/template/account/login.tpl
+CODE: <div class="row"><?php echo $column_left; ?>
+LINE: 18
+FILE: catalog/controller/account/success.php
+CODE: $data['column_left'] = $this->load->controller('common/column_left');
+LINE: 64
+FILE: catalog/controller/account/login.php
+CODE: if ($customer_info && !$customer_info['approved']) {
+LINE: 208
+CODE: $data['button_login'] = $this->language->get('button_login');
+LINE: 139
+----------------------------------------------------------------
+MOD: Google Feed Sitemap Fix
+FILE: catalog/controller/feed/google_sitemap.php
+CODE: $this->model_tool_image->resize($product['image'], $this->config->get('config_image_popup_width'), $this->config->get('config_image_popup_height'))
+LINE: 19
+CODE: '<image:caption>' . $product['name'] . '</image:caption>'
+LINE: 20
+CODE: '<image:title>' . $product['name'] . '</image:title>';
+LINE: 21
+----------------------------------------------------------------
+MOD: Local copy OCMOD by iSenseLabs
+FILE: admin/controller/extension/installer.php
+CODE: 'url'  => str_replace('&amp;', '&', $this->url->link('extension/installer/ftp', 'token=' . $this->session->data['token'],
+LINE: 132
+CODE: public function unzip() {
+LINE: 293
+----------------------------------------------------------------
+MOD: Menu Item for the Acute Category Manager
+FILE: admin/view/template/common/menu.tpl
+CODE: <li><a href="<?php echo $category; ?>"><?php echo $text_category; ?></a></li>
+LINE: 4
+FILE: admin/controller/common/menu.php
+CODE: $this->load->language('common/menu');
+LINE: 3
+----------------------------------------------------------------

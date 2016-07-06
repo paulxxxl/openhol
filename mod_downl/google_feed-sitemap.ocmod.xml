@@ -1,0 +1,21 @@
+<modification>
+	<name><![CDATA[Google Feed Sitemap Fix]]></name>
+	<version><![CDATA[1.1]]></version>
+	<vqmver><![CDATA[2.3.2]]></vqmver>
+	<author><![CDATA[peku]]></author>
+	<code><![CDATA[xwap4Q7zkB2]]></code>
+<file path="catalog/controller/feed/google_sitemap.php">
+                       <operation>
+                                              <search><![CDATA[$this->model_tool_image->resize($product['image'], $this->config->get('config_image_popup_width'), $this->config->get('config_image_popup_height'))]]></search>
+                                               <add position="replace"><![CDATA[str_replace('&','&amp;',$this->model_tool_image->resize($product['image'], $this->config->get('config_image_popup_width'), $this->config->get('config_image_popup_height')))]]></add>
+                       </operation>
+                       <operation>
+                                              <search><![CDATA['<image:caption>' . $product['name'] . '</image:caption>']]></search>
+                                              <add position="replace"><![CDATA['<image:caption>' . str_replace('&','&amp;',$product['name']) . '</image:caption>']]></add>
+                      </operation>
+                       <operation>
+                                              <search><![CDATA['<image:title>' . $product['name'] . '</image:title>';]]></search>
+                                              <add position="replace"><![CDATA['<image:title>' . str_replace('&','&amp;',$product['name']) . '</image:title>';]]></add>
+                      </operation>
+</file>
+</modification>

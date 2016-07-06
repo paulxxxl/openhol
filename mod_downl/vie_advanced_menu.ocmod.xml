@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8"?>
+<modification>
+  <name>viethemes - Advanced Menu</name>
+  <code>viethemes_advanced_menu</code>
+  <version>1.0</version>
+  <author>viethemes</author>
+  <link>http://www.viethemes.com</link>
+
+  <file path="catalog/view/theme/default/template/common/header.tpl">
+    <operation>
+      <search>
+        <![CDATA[</head>]]>
+      </search>
+      <add position="before">
+        <![CDATA[
+          <style>
+            #menu .dropdown .dropdown-toggle {
+              padding-right: 20px;
+            }
+
+            .ochow-menu-item-toggle {
+              position: absolute;
+              top: 0;
+              right: 0;
+              z-index: 1;
+              color: #FFF;
+              padding: 10px 15px;
+            }
+
+            .ochow-menu-item-toggle:hover {
+              background-color: rgba(144, 128, 128, 0.5);
+              cursor: pointer;
+            }
+
+            .ochow-menu-item-toggle.ochow-close .fa-plus {
+              display: inline-block;
+            }
+
+            .ochow-menu-item-toggle.ochow-close .fa-minus {
+              display: none;
+            }
+
+            .ochow-menu-item-toggle.ochow-open .fa-plus {
+              display: none;
+            }
+
+            .ochow-menu-item-toggle.ochow-open .fa-minus {
+              display: inline-block;
+            }
+
+            .ochow-menu-item-arrow {
+              position: absolute;
+              top: 12px;
+              right: 5px;
+              color: #fff;
+            }
+          </style>
+          <script>
+            $(document).ready(function () {
+              var $menu = $('#menu');
+
+              $('.ochow-menu-item-toggle').on('click', function () {
+                var $btn = $(this);
+
+                $menu
+                  .find('.dropdown')
+                    .removeClass('open')
+                      .find('.ochow-open')
+                        .removeClass('ochow-open')
+                        .addClass('ochow-close');
+
+                if ($btn.hasClass('ochow-close')) {
+                  $btn
+                    .removeClass('ochow-close')
+                    .addClass('ochow-open')
+                      .parent()
+                        .addClass('open')
+                } else {
+                  $btn
+                    .removeClass('ochow-open')
+                    .addClass('ochow-close')
+                      .parent()
+                        .removeClass('open')
+                }
+              });
+            });
+          </script>
+        ]]>
+      </add>
+    </operation>
+    <operation>
+      <search>
+        <![CDATA[<div class="dropdown-menu">]]>
+      </search>
+      <add position="before">
+        <![CDATA[
+          <span class="ochow-menu-item-toggle ochow-close visible-xs">
+            <i class="fa fa-plus"></i>
+            <i class="fa fa-minus"></i>
+          </span>
+          <span class="ochow-menu-item-arrow hidden-xs">
+            <i class="fa fa-angle-down"></i>
+          </span>
+        ]]>
+      </add>
+    </operation>
+    <operation>
+      <search>
+        <![CDATA[<a href="<?php echo $category['href']; ?>" class="see-all"><?php echo $text_all; ?> <?php echo $category['name']; ?></a> </div>]]>
+      </search>
+      <add position="replace">
+        <![CDATA[</div>]]>
+      </add>
+    </operation>
+    <operation>
+      <search>
+        <![CDATA[<a href="<?php echo $category['href']; ?>" class="dropdown-toggle" data-toggle="dropdown"><?php echo $category['name']; ?></a>]]>
+      </search>
+      <add position="replace">
+        <![CDATA[<a href="<?php echo $category['href']; ?>" class="dropdown-toggle"><?php echo $category['name']; ?></a>]]>
+      </add>
+    </operation>
+  </file>
+
+</modification>
