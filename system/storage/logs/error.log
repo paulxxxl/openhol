@@ -793,3 +793,7 @@
 2016-07-06 12:46:13 - PHP Warning:  rmdir(C:/OpenServer/domains/openmag.ua/system/storage/modification/catalog) [<a href='function.rmdir'>function.rmdir</a>]: Directory not empty in C:\OpenServer\domains\openmag.ua\admin\controller\extension\modification.php on line 105
 2016-07-06 12:46:13 - PHP Warning:  Cannot modify header information - headers already sent by (output started at C:\OpenServer\domains\openmag.ua\admin\index.php:80) in C:\OpenServer\domains\openmag.ua\system\library\response.php on line 12
 2016-07-06 13:58:37 - PHP Notice:  Error: Could not load model C:/OpenServer/domains/openmag.ua/admin/model/sale/customer_group.php! in C:\OpenServer\domains\openmag.ua\system\storage\modification\system\engine\loader.php on line 63
+2016-07-07 18:51:08 - PHP Notice:  Undefined index: separator in C:\OpenServer\domains\openmag.ua\catalog\view\theme\holshop\template\common\simple_header.tpl on line 9
+2016-07-07 18:57:14 - PHP Notice:  Undefined index: separator in C:\OpenServer\domains\openmag.ua\catalog\view\theme\holshop\template\common\simple_header.tpl on line 9
+2016-07-07 20:52:30 - PHP Notice:  Undefined index: customerGroups in C:\OpenServer\domains\openmag.ua\catalog\model\module\emailverification.php on line 62
+2016-07-07 20:52:30 - PHP Warning:  array_key_exists() expects parameter 2 to be array, null given in C:\OpenServer\domains\openmag.ua\catalog\model\module\emailverification.php on line 63
