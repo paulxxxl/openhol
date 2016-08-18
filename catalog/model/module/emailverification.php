@@ -18,11 +18,10 @@ class ModelModuleEmailVerification extends Model {
 		$customer_email = $customer['email'];
 
 		//generate link	
-		$email_link = '<a href="'.$this->url->link('module/emailverification/verifyCustomer', 'customer_id='.base64_encode($customer_id)).'">'.$this->url->link('module/emailverification/verifyCustomer', 'customer_id='.base64_encode($customer_id)).'</a>';
+		$email_link = $this->url->link('module/emailverification/verifyCustomer', 'customer_id='.base64_encode($customer_id));
 		
 		//generate message
 		$messageToCustomer = html_entity_decode($settings['emailverification']['message'][$this->config->get('config_language_id')], ENT_QUOTES, 'UTF-8');
-
 		$wordTemplates = array("{firstname}", "{lastname}","{email-link}");
 		$words   = array($customer['firstname'], $customer['lastname'],$email_link);					
 		$messageToCustomer = str_replace($wordTemplates, $words, $messageToCustomer);

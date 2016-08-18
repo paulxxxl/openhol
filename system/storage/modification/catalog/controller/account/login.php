@@ -5,6 +5,21 @@ class ControllerAccountLogin extends Controller {
 	public function index() {
 		$this->load->model('account/customer');
 
+			
+				$emailverification = $this->config->get('emailverification');
+                if (!empty($this->request->post['email'])) {
+
+                    $customer_info = $this->model_account_customer->getCustomerByEmail($this->request->post['email']);
+                    
+                    if($customer_info && !$customer_info['verified'] && $emailverification['enabled'] == 1){
+                    	
+                        $this->response->redirect($this->url->link('module/emailverification/notVerified', true));
+                        return;		
+                    }
+                }
+		
+			
+
 		// Login override for admin users
 		if (!empty($this->request->get['token'])) {
 			$this->customer->logout();
@@ -132,13 +147,6 @@ class ControllerAccountLogin extends Controller {
 		$data['button_continue'] = $this->language->get('button_continue');
 		$data['button_login'] = $this->language->get('button_login');
 
-				if (isset($this->error['warning_verified'])) {
-				$data['error_warning_verified'] = $this->error['warning_verified'];
-				} else {
-				$data['error_warning_verified'] = '';
-				}
-			
-
 		if (isset($this->error['warning'])) {
 			$data['error_warning'] = $this->error['warning'];
 		} else {
@@ -207,12 +215,6 @@ class ControllerAccountLogin extends Controller {
 		// Check if customer has been approved.
 		$customer_info = $this->model_account_customer->getCustomerByEmail($this->request->post['email']);
 
-
-				if($customer_info && !$customer_info['verified']){
-				$this->language->load('module/emailverification');
-				$this->error['warning'] = $this->language->get('error_verified');			
-				}
-			
 		if ($customer_info && !$customer_info['approved']) {
 			$this->error['warning'] = $this->language->get('error_approved');
 		}

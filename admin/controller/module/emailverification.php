@@ -7,10 +7,9 @@ class ControllerModuleEmailVerification extends Controller
     private $error = array();
     private $version;
     
-    public function index () {
-        
+    public function index () {        
 
-        $this->version = '1.2.3';
+        $this->version = '2.0.0';
 
         //load language
         $this->load->language('module/emailverification');
@@ -46,14 +45,14 @@ class ControllerModuleEmailVerification extends Controller
 
         $languages = $this->model_localisation_language->getLanguages();
         $data['languages'] = $languages;
-		
-		foreach ($data['languages'] as $key => $value) {
-			if(version_compare(VERSION, '2.2.0.0', "<")) {
-				$data['languages'][$key]['flag_url'] = 'view/image/flags/'.$data['languages'][$key]['image'];
-			} else {
-				$data['languages'][$key]['flag_url'] = 'language/'.$data['languages'][$key]['code'].'/'.$data['languages'][$key]['code'].'.png"';
-			}
-		}
+        
+        foreach ($data['languages'] as $key => $value) {
+            if(version_compare(VERSION, '2.2.0.0', "<")) {
+                $data['languages'][$key]['flag_url'] = 'view/image/flags/'.$data['languages'][$key]['image'];
+            } else {
+                $data['languages'][$key]['flag_url'] = 'language/'.$data['languages'][$key]['code'].'/'.$data['languages'][$key]['code'].'.png"';
+            }
+        }
 
         //save settings     
         if (($this->request->server['REQUEST_METHOD'] == 'POST') && $this->validate()) {

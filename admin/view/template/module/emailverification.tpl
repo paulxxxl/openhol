@@ -4,7 +4,7 @@
 <div id="content">
 	<div class="page-header">
         <div class="container-fluid">
-          <h1><?php echo $module_title; ?></h1>
+          <h1><i class="fa fa-check"></i>&nbsp;<?php echo $module_title; ?></h1>
           <ul class="breadcrumb">
             <?php foreach ($breadcrumbs as $breadcrumb) { ?>
             <li><a href="<?php echo $breadcrumb['href']; ?>"><?php echo $breadcrumb['text']; ?></a></li>
@@ -16,7 +16,7 @@
   	<div class="container-fluid">
   		<div class="panel panel-default">
   			<div class="panel-heading">  			 	
-  				<h3 class="panel-title"><i class="fa fa-list"></i>&nbsp;<span style="vertical-align:middle;font-weight:bold;"><?php echo $text_module_settings ?></span></h3>
+  				<h3 class="panel-title"><i class="fa fa-list"></i>&nbsp;<span style="vertical-align:middle;font-weight:bold;"><?= $text_module_settings ?></span></h3>
   				<div id="storeSwitcher" class="storeSwitcherWidget" style="position: absolute;right: 18px;top: -8px;">
                     <div class="form-group">
                         <button type="button" class="btn btn-default btn-sm dropdown-toggle" data-toggle="dropdown"><?php echo $store['name']; if($store['store_id'] == 0) echo " <strong>(".$text_default.")</strong>"; ?>&nbsp;<span class="caret"></span><span class="sr-only">Toggle Dropdown</span></button>

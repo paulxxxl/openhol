@@ -1,3 +1,17 @@
+<script type="text/javascript">
+function Send(){
+  alert ('!!');
+  <?php
+       $to = "ipavel@i.ua"; 
+       $subject = "Test mail";
+       $message = "Hello! This is a simple email message.";
+       mail($to,$subject,$message);
+       echo "Mail Send.";
+?>
+}
+
+</script>
+
 <?php echo $header; ?>
 
       <div id="content">
@@ -32,6 +46,13 @@
       <?php } ?>
     </div>
       <?php } ?>
-      
+     <div class='btn1'> 
+      <button onclick='Send()'>Отправить почту</button>
+     </div>
      
 <?php echo $footer; ?>
+
+
+
+
+

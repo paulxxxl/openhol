@@ -797,3 +797,303 @@
 2016-07-07 18:57:14 - PHP Notice:  Undefined index: separator in C:\OpenServer\domains\openmag.ua\catalog\view\theme\holshop\template\common\simple_header.tpl on line 9
 2016-07-07 20:52:30 - PHP Notice:  Undefined index: customerGroups in C:\OpenServer\domains\openmag.ua\catalog\model\module\emailverification.php on line 62
 2016-07-07 20:52:30 - PHP Warning:  array_key_exists() expects parameter 2 to be array, null given in C:\OpenServer\domains\openmag.ua\catalog\model\module\emailverification.php on line 63
+2016-08-16 13:18:56 - PHP Notice:  Undefined index: customerGroups in C:\OpenServer\domains\openmag.ua\catalog\model\module\emailverification.php on line 61
+2016-08-16 13:18:56 - PHP Warning:  array_key_exists() expects parameter 2 to be array, null given in C:\OpenServer\domains\openmag.ua\catalog\model\module\emailverification.php on line 62
+2016-08-16 13:43:36 - PHP Notice:  Error: EHLO not accepted from server! in C:\OpenServer\domains\openmag.ua\system\library\mail.php on line 199
+2016-08-16 13:49:26 - PHP Notice:  Error: EHLO not accepted from server! in C:\OpenServer\domains\openmag.ua\system\library\mail.php on line 199
+2016-08-16 13:52:28 - PHP Notice:  Error: Password not accepted from server! in C:\OpenServer\domains\openmag.ua\system\library\mail.php on line 289
+2016-08-16 14:05:52 - PHP Notice:  Error: EHLO not accepted from server! in C:\OpenServer\domains\openmag.ua\system\library\mail.php on line 199
+2016-08-16 14:09:30 - PHP Notice:  Error: Password not accepted from server! in C:\OpenServer\domains\openmag.ua\system\library\mail.php on line 289
+2016-08-16 14:10:11 - PHP Notice:  Error: Password not accepted from server! in C:\OpenServer\domains\openmag.ua\system\library\mail.php on line 289
+2016-08-16 14:12:24 - PHP Notice:  Error: Password not accepted from server! in C:\OpenServer\domains\openmag.ua\system\library\mail.php on line 289
+2016-08-16 14:46:01 - PHP Warning:  fsockopen() [<a href='function.fsockopen'>function.fsockopen</a>]: unable to connect to :25 (Подключение не установлено, т.к. конечный компьютер отверг запрос на подключение.
+) in C:\OpenServer\domains\openmag.ua\system\library\mail.php on line 162
+2016-08-16 14:46:01 - PHP Notice:  Undefined index: customerGroups in C:\OpenServer\domains\openmag.ua\catalog\model\module\emailverification.php on line 61
+2016-08-16 14:46:01 - PHP Warning:  array_key_exists() expects parameter 2 to be array, null given in C:\OpenServer\domains\openmag.ua\catalog\model\module\emailverification.php on line 62
+2016-08-16 14:46:05 - PHP Warning:  fsockopen() [<a href='function.fsockopen'>function.fsockopen</a>]: unable to connect to :25 (Подключение не установлено, т.к. конечный компьютер отверг запрос на подключение.
+) in C:\OpenServer\domains\openmag.ua\system\library\mail.php on line 162
+2016-08-16 15:35:16 - PHP Warning:  fsockopen() [<a href='function.fsockopen'>function.fsockopen</a>]: unable to connect to :25 (Подключение не установлено, т.к. конечный компьютер отверг запрос на подключение.
+) in C:\OpenServer\domains\openmag.ua\system\library\mail.php on line 162
+2016-08-16 15:35:16 - PHP Warning:  Cannot modify header information - headers already sent by (output started at C:\OpenServer\domains\openmag.ua\index.php:99) in C:\OpenServer\domains\openmag.ua\system\library\response.php on line 12
+2016-08-16 16:01:17 - PHP Warning:  fsockopen() [<a href='function.fsockopen'>function.fsockopen</a>]: unable to connect to :25 (Подключение не установлено, т.к. конечный компьютер отверг запрос на подключение.
+) in C:\OpenServer\domains\openmag.ua\system\library\mail.php on line 162
+2016-08-16 16:01:17 - PHP Notice:  Undefined index: customerGroups in C:\OpenServer\domains\openmag.ua\catalog\model\module\emailverification.php on line 61
+2016-08-16 16:01:17 - PHP Warning:  array_key_exists() expects parameter 2 to be array, null given in C:\OpenServer\domains\openmag.ua\catalog\model\module\emailverification.php on line 62
+2016-08-16 16:01:21 - PHP Warning:  fsockopen() [<a href='function.fsockopen'>function.fsockopen</a>]: unable to connect to :25 (Подключение не установлено, т.к. конечный компьютер отверг запрос на подключение.
+) in C:\OpenServer\domains\openmag.ua\system\library\mail.php on line 162
+2016-08-16 16:26:18 - PHP Warning:  fsockopen() [<a href='function.fsockopen'>function.fsockopen</a>]: unable to connect to :25 (Подключение не установлено, т.к. конечный компьютер отверг запрос на подключение.
+) in C:\OpenServer\domains\openmag.ua\system\library\mail.php on line 162
+2016-08-16 16:26:18 - PHP Notice:  Undefined index: customerGroups in C:\OpenServer\domains\openmag.ua\catalog\model\module\emailverification.php on line 61
+2016-08-16 16:26:18 - PHP Warning:  array_key_exists() expects parameter 2 to be array, null given in C:\OpenServer\domains\openmag.ua\catalog\model\module\emailverification.php on line 62
+2016-08-16 16:26:22 - PHP Warning:  fsockopen() [<a href='function.fsockopen'>function.fsockopen</a>]: unable to connect to :25 (Подключение не установлено, т.к. конечный компьютер отверг запрос на подключение.
+) in C:\OpenServer\domains\openmag.ua\system\library\mail.php on line 162
+2016-08-16 16:27:04 - PHP Warning:  fsockopen() [<a href='function.fsockopen'>function.fsockopen</a>]: unable to connect to :25 (Подключение не установлено, т.к. конечный компьютер отверг запрос на подключение.
+) in C:\OpenServer\domains\openmag.ua\system\library\mail.php on line 162
+2016-08-16 16:27:04 - PHP Notice:  Undefined index: customerGroups in C:\OpenServer\domains\openmag.ua\catalog\model\module\emailverification.php on line 61
+2016-08-16 16:27:04 - PHP Warning:  array_key_exists() expects parameter 2 to be array, null given in C:\OpenServer\domains\openmag.ua\catalog\model\module\emailverification.php on line 62
+2016-08-16 16:27:08 - PHP Warning:  fsockopen() [<a href='function.fsockopen'>function.fsockopen</a>]: unable to connect to :25 (Подключение не установлено, т.к. конечный компьютер отверг запрос на подключение.
+) in C:\OpenServer\domains\openmag.ua\system\library\mail.php on line 162
+2016-08-16 17:08:36 - PHP Warning:  fsockopen() [<a href='function.fsockopen'>function.fsockopen</a>]: unable to connect to :25 (Подключение не установлено, т.к. конечный компьютер отверг запрос на подключение.
+) in C:\OpenServer\domains\openmag.ua\system\library\mail.php on line 162
+2016-08-16 17:08:36 - PHP Notice:  Undefined index: customerGroups in C:\OpenServer\domains\openmag.ua\catalog\model\module\emailverification.php on line 61
+2016-08-16 17:08:36 - PHP Warning:  array_key_exists() expects parameter 2 to be array, null given in C:\OpenServer\domains\openmag.ua\catalog\model\module\emailverification.php on line 62
+2016-08-16 17:08:40 - PHP Warning:  fsockopen() [<a href='function.fsockopen'>function.fsockopen</a>]: unable to connect to :25 (Подключение не установлено, т.к. конечный компьютер отверг запрос на подключение.
+) in C:\OpenServer\domains\openmag.ua\system\library\mail.php on line 162
+2016-08-16 17:10:06 - PHP Warning:  fsockopen() [<a href='function.fsockopen'>function.fsockopen</a>]: unable to connect to :25 (Подключение не установлено, т.к. конечный компьютер отверг запрос на подключение.
+) in C:\OpenServer\domains\openmag.ua\system\library\mail.php on line 162
+2016-08-16 17:10:06 - PHP Notice:  Undefined index: customerGroups in C:\OpenServer\domains\openmag.ua\catalog\model\module\emailverification.php on line 61
+2016-08-16 17:10:06 - PHP Warning:  array_key_exists() expects parameter 2 to be array, null given in C:\OpenServer\domains\openmag.ua\catalog\model\module\emailverification.php on line 62
+2016-08-16 17:10:10 - PHP Warning:  fsockopen() [<a href='function.fsockopen'>function.fsockopen</a>]: unable to connect to :25 (Подключение не установлено, т.к. конечный компьютер отверг запрос на подключение.
+) in C:\OpenServer\domains\openmag.ua\system\library\mail.php on line 162
+2016-08-16 17:20:00 - PHP Warning:  fsockopen() [<a href='function.fsockopen'>function.fsockopen</a>]: unable to connect to :25 (Подключение не установлено, т.к. конечный компьютер отверг запрос на подключение.
+) in C:\OpenServer\domains\openmag.ua\system\library\mail.php on line 162
+2016-08-16 17:20:00 - PHP Notice:  Undefined index: customerGroups in C:\OpenServer\domains\openmag.ua\catalog\model\module\emailverification.php on line 61
+2016-08-16 17:20:00 - PHP Warning:  array_key_exists() expects parameter 2 to be array, null given in C:\OpenServer\domains\openmag.ua\catalog\model\module\emailverification.php on line 62
+2016-08-16 17:20:04 - PHP Warning:  fsockopen() [<a href='function.fsockopen'>function.fsockopen</a>]: unable to connect to :25 (Подключение не установлено, т.к. конечный компьютер отверг запрос на подключение.
+) in C:\OpenServer\domains\openmag.ua\system\library\mail.php on line 162
+2016-08-16 17:21:30 - PHP Warning:  fsockopen() [<a href='function.fsockopen'>function.fsockopen</a>]: unable to connect to :25 (Подключение не установлено, т.к. конечный компьютер отверг запрос на подключение.
+) in C:\OpenServer\domains\openmag.ua\system\library\mail.php on line 162
+2016-08-16 17:21:31 - PHP Notice:  Undefined index: customerGroups in C:\OpenServer\domains\openmag.ua\catalog\model\module\emailverification.php on line 61
+2016-08-16 17:21:31 - PHP Warning:  array_key_exists() expects parameter 2 to be array, null given in C:\OpenServer\domains\openmag.ua\catalog\model\module\emailverification.php on line 62
+2016-08-16 17:21:35 - PHP Warning:  fsockopen() [<a href='function.fsockopen'>function.fsockopen</a>]: unable to connect to :25 (Подключение не установлено, т.к. конечный компьютер отверг запрос на подключение.
+) in C:\OpenServer\domains\openmag.ua\system\library\mail.php on line 162
+2016-08-16 17:26:37 - PHP Warning:  fsockopen() [<a href='function.fsockopen'>function.fsockopen</a>]: unable to connect to :25 (Подключение не установлено, т.к. конечный компьютер отверг запрос на подключение.
+) in C:\OpenServer\domains\openmag.ua\system\library\mail.php on line 162
+2016-08-16 17:26:37 - PHP Notice:  Undefined index: customerGroups in C:\OpenServer\domains\openmag.ua\catalog\model\module\emailverification.php on line 61
+2016-08-16 17:26:37 - PHP Warning:  array_key_exists() expects parameter 2 to be array, null given in C:\OpenServer\domains\openmag.ua\catalog\model\module\emailverification.php on line 62
+2016-08-16 17:26:41 - PHP Warning:  fsockopen() [<a href='function.fsockopen'>function.fsockopen</a>]: unable to connect to :25 (Подключение не установлено, т.к. конечный компьютер отверг запрос на подключение.
+) in C:\OpenServer\domains\openmag.ua\system\library\mail.php on line 162
+2016-08-17 15:14:42 - PHP Notice:  Undefined index: img in C:\OpenServer\domains\openmag.ua\catalog\view\theme\holshop\template\product\category.tpl on line 38
+2016-08-17 15:14:42 - PHP Notice:  Undefined index: img in C:\OpenServer\domains\openmag.ua\catalog\view\theme\holshop\template\product\category.tpl on line 38
+2016-08-17 15:15:47 - PHP Notice:  Undefined index: img in C:\OpenServer\domains\openmag.ua\catalog\view\theme\holshop\template\product\category.tpl on line 38
+2016-08-17 15:15:47 - PHP Notice:  Undefined index: img in C:\OpenServer\domains\openmag.ua\catalog\view\theme\holshop\template\product\category.tpl on line 38
+2016-08-17 15:22:20 - PHP Notice:  Undefined index: image in C:\OpenServer\domains\openmag.ua\catalog\view\theme\holshop\template\product\category.tpl on line 38
+2016-08-17 15:22:20 - PHP Notice:  Undefined index: image in C:\OpenServer\domains\openmag.ua\catalog\view\theme\holshop\template\product\category.tpl on line 38
+2016-08-17 15:22:24 - PHP Notice:  Undefined index: image in C:\OpenServer\domains\openmag.ua\catalog\view\theme\holshop\template\product\category.tpl on line 38
+2016-08-17 15:22:24 - PHP Notice:  Undefined index: image in C:\OpenServer\domains\openmag.ua\catalog\view\theme\holshop\template\product\category.tpl on line 38
+2016-08-17 15:24:02 - PHP Notice:  Undefined variable: category_info in C:\OpenServer\domains\openmag.ua\catalog\view\theme\holshop\template\product\category.tpl on line 38
+2016-08-17 15:24:02 - PHP Notice:  Undefined variable: category_info in C:\OpenServer\domains\openmag.ua\catalog\view\theme\holshop\template\product\category.tpl on line 38
+2016-08-17 15:27:49 - PHP Notice:  Undefined variable: category_info in C:\OpenServer\domains\openmag.ua\catalog\view\theme\holshop\template\product\category.tpl on line 38
+2016-08-17 15:27:49 - PHP Notice:  Undefined variable: category_info in C:\OpenServer\domains\openmag.ua\catalog\view\theme\holshop\template\product\category.tpl on line 38
+2016-08-17 15:28:06 - PHP Notice:  Undefined variable: category_info in C:\OpenServer\domains\openmag.ua\catalog\view\theme\holshop\template\product\category.tpl on line 38
+2016-08-17 15:28:06 - PHP Notice:  Undefined variable: category_info in C:\OpenServer\domains\openmag.ua\catalog\view\theme\holshop\template\product\category.tpl on line 38
+2016-08-17 15:28:24 - PHP Notice:  Undefined variable: category_info in C:\OpenServer\domains\openmag.ua\catalog\view\theme\holshop\template\product\category.tpl on line 38
+2016-08-17 15:28:24 - PHP Notice:  Undefined variable: category_info in C:\OpenServer\domains\openmag.ua\catalog\view\theme\holshop\template\product\category.tpl on line 38
+2016-08-17 15:50:56 - PHP Warning:  Missing argument 2 for ModelToolImage::resize(), called in C:\OpenServer\domains\openmag.ua\catalog\controller\product\category.php on line 175 and defined in C:\OpenServer\domains\openmag.ua\catalog\model\tool\image.php on line 3
+2016-08-17 15:50:56 - PHP Warning:  Missing argument 3 for ModelToolImage::resize(), called in C:\OpenServer\domains\openmag.ua\catalog\controller\product\category.php on line 175 and defined in C:\OpenServer\domains\openmag.ua\catalog\model\tool\image.php on line 3
+2016-08-17 15:50:56 - PHP Notice:  Undefined variable: width in C:\OpenServer\domains\openmag.ua\catalog\model\tool\image.php on line 17
+2016-08-17 15:50:56 - PHP Notice:  Undefined variable: height in C:\OpenServer\domains\openmag.ua\catalog\model\tool\image.php on line 17
+2016-08-17 15:50:56 - PHP Notice:  Undefined variable: width in C:\OpenServer\domains\openmag.ua\catalog\model\tool\image.php on line 34
+2016-08-17 15:50:56 - PHP Notice:  Undefined variable: width in C:\OpenServer\domains\openmag.ua\catalog\model\tool\image.php on line 36
+2016-08-17 15:50:56 - PHP Notice:  Undefined variable: height in C:\OpenServer\domains\openmag.ua\catalog\model\tool\image.php on line 36
+2016-08-17 15:50:56 - PHP Warning:  imagecreatetruecolor() [<a href='function.imagecreatetruecolor'>function.imagecreatetruecolor</a>]: Invalid image dimensions in C:\OpenServer\domains\openmag.ua\system\library\image.php on line 105
+2016-08-17 15:50:56 - PHP Warning:  imagealphablending() expects parameter 1 to be resource, boolean given in C:\OpenServer\domains\openmag.ua\system\library\image.php on line 108
+2016-08-17 15:50:56 - PHP Warning:  imagesavealpha() expects parameter 1 to be resource, boolean given in C:\OpenServer\domains\openmag.ua\system\library\image.php on line 109
+2016-08-17 15:50:56 - PHP Warning:  imagecolorallocatealpha() expects parameter 1 to be resource, boolean given in C:\OpenServer\domains\openmag.ua\system\library\image.php on line 110
+2016-08-17 15:50:56 - PHP Warning:  imagecolortransparent() expects parameter 1 to be resource, boolean given in C:\OpenServer\domains\openmag.ua\system\library\image.php on line 111
+2016-08-17 15:50:56 - PHP Warning:  imagefilledrectangle() expects parameter 1 to be resource, boolean given in C:\OpenServer\domains\openmag.ua\system\library\image.php on line 116
+2016-08-17 15:50:56 - PHP Warning:  imagecopyresampled() expects parameter 1 to be resource, boolean given in C:\OpenServer\domains\openmag.ua\system\library\image.php on line 118
+2016-08-17 15:50:56 - PHP Warning:  Missing argument 2 for ModelToolImage::resize(), called in C:\OpenServer\domains\openmag.ua\catalog\controller\product\category.php on line 175 and defined in C:\OpenServer\domains\openmag.ua\catalog\model\tool\image.php on line 3
+2016-08-17 15:50:56 - PHP Warning:  Missing argument 3 for ModelToolImage::resize(), called in C:\OpenServer\domains\openmag.ua\catalog\controller\product\category.php on line 175 and defined in C:\OpenServer\domains\openmag.ua\catalog\model\tool\image.php on line 3
+2016-08-17 15:50:56 - PHP Notice:  Undefined variable: width in C:\OpenServer\domains\openmag.ua\catalog\model\tool\image.php on line 17
+2016-08-17 15:50:56 - PHP Notice:  Undefined variable: height in C:\OpenServer\domains\openmag.ua\catalog\model\tool\image.php on line 17
+2016-08-17 15:50:56 - PHP Notice:  Undefined variable: width in C:\OpenServer\domains\openmag.ua\catalog\model\tool\image.php on line 34
+2016-08-17 15:50:56 - PHP Notice:  Undefined variable: width in C:\OpenServer\domains\openmag.ua\catalog\model\tool\image.php on line 36
+2016-08-17 15:50:56 - PHP Notice:  Undefined variable: height in C:\OpenServer\domains\openmag.ua\catalog\model\tool\image.php on line 36
+2016-08-17 15:50:56 - PHP Warning:  imagecreatetruecolor() [<a href='function.imagecreatetruecolor'>function.imagecreatetruecolor</a>]: Invalid image dimensions in C:\OpenServer\domains\openmag.ua\system\library\image.php on line 105
+2016-08-17 15:50:56 - PHP Warning:  imagealphablending() expects parameter 1 to be resource, boolean given in C:\OpenServer\domains\openmag.ua\system\library\image.php on line 108
+2016-08-17 15:50:56 - PHP Warning:  imagesavealpha() expects parameter 1 to be resource, boolean given in C:\OpenServer\domains\openmag.ua\system\library\image.php on line 109
+2016-08-17 15:50:56 - PHP Warning:  imagecolorallocatealpha() expects parameter 1 to be resource, boolean given in C:\OpenServer\domains\openmag.ua\system\library\image.php on line 110
+2016-08-17 15:50:56 - PHP Warning:  imagecolortransparent() expects parameter 1 to be resource, boolean given in C:\OpenServer\domains\openmag.ua\system\library\image.php on line 111
+2016-08-17 15:50:56 - PHP Warning:  imagefilledrectangle() expects parameter 1 to be resource, boolean given in C:\OpenServer\domains\openmag.ua\system\library\image.php on line 116
+2016-08-17 15:50:56 - PHP Warning:  imagecopyresampled() expects parameter 1 to be resource, boolean given in C:\OpenServer\domains\openmag.ua\system\library\image.php on line 118
+2016-08-17 15:54:12 - PHP Notice:  Undefined variable: categories in C:\OpenServer\domains\openmag.ua\catalog\controller\product\category.php on line 176
+2016-08-17 15:54:12 - PHP Notice:  Undefined variable: categories in C:\OpenServer\domains\openmag.ua\catalog\controller\product\category.php on line 176
+2016-08-17 15:54:17 - PHP Notice:  Undefined variable: categories in C:\OpenServer\domains\openmag.ua\catalog\controller\product\category.php on line 176
+2016-08-17 15:54:17 - PHP Notice:  Undefined variable: categories in C:\OpenServer\domains\openmag.ua\catalog\controller\product\category.php on line 176
+2016-08-17 15:54:20 - PHP Notice:  Undefined variable: categories in C:\OpenServer\domains\openmag.ua\catalog\controller\product\category.php on line 176
+2016-08-17 15:54:20 - PHP Notice:  Undefined variable: categories in C:\OpenServer\domains\openmag.ua\catalog\controller\product\category.php on line 176
+2016-08-17 15:54:36 - PHP Notice:  Undefined variable: categories in C:\OpenServer\domains\openmag.ua\catalog\controller\product\category.php on line 176
+2016-08-17 15:54:36 - PHP Notice:  Undefined variable: categories in C:\OpenServer\domains\openmag.ua\catalog\controller\product\category.php on line 176
+2016-08-17 15:55:05 - PHP Notice:  Undefined index: image in C:\OpenServer\domains\openmag.ua\catalog\controller\product\category.php on line 176
+2016-08-17 15:55:05 - PHP Notice:  Undefined index: image in C:\OpenServer\domains\openmag.ua\catalog\controller\product\category.php on line 176
+2016-08-17 15:55:08 - PHP Notice:  Undefined index: image in C:\OpenServer\domains\openmag.ua\catalog\controller\product\category.php on line 176
+2016-08-17 15:55:08 - PHP Notice:  Undefined index: image in C:\OpenServer\domains\openmag.ua\catalog\controller\product\category.php on line 176
+2016-08-17 15:55:10 - PHP Notice:  Undefined index: image in C:\OpenServer\domains\openmag.ua\catalog\controller\product\category.php on line 176
+2016-08-17 15:55:10 - PHP Notice:  Undefined index: image in C:\OpenServer\domains\openmag.ua\catalog\controller\product\category.php on line 176
+2016-08-17 15:55:13 - PHP Notice:  Undefined index: image in C:\OpenServer\domains\openmag.ua\catalog\controller\product\category.php on line 176
+2016-08-17 15:55:13 - PHP Notice:  Undefined index: image in C:\OpenServer\domains\openmag.ua\catalog\controller\product\category.php on line 176
+2016-08-17 15:55:16 - PHP Notice:  Undefined index: image in C:\OpenServer\domains\openmag.ua\catalog\controller\product\category.php on line 176
+2016-08-17 15:55:16 - PHP Notice:  Undefined index: image in C:\OpenServer\domains\openmag.ua\catalog\controller\product\category.php on line 176
+2016-08-17 15:55:18 - PHP Notice:  Undefined index: image in C:\OpenServer\domains\openmag.ua\catalog\controller\product\category.php on line 176
+2016-08-17 15:55:18 - PHP Notice:  Undefined index: image in C:\OpenServer\domains\openmag.ua\catalog\controller\product\category.php on line 176
+2016-08-17 15:55:30 - PHP Notice:  Undefined index: image in C:\OpenServer\domains\openmag.ua\catalog\controller\product\category.php on line 176
+2016-08-17 15:55:30 - PHP Notice:  Undefined index: image in C:\OpenServer\domains\openmag.ua\catalog\controller\product\category.php on line 176
+2016-08-17 15:55:33 - PHP Notice:  Undefined index: image in C:\OpenServer\domains\openmag.ua\catalog\controller\product\category.php on line 176
+2016-08-17 15:55:33 - PHP Notice:  Undefined index: image in C:\OpenServer\domains\openmag.ua\catalog\controller\product\category.php on line 176
+2016-08-17 15:55:35 - PHP Notice:  Undefined index: image in C:\OpenServer\domains\openmag.ua\catalog\controller\product\category.php on line 176
+2016-08-17 15:55:35 - PHP Notice:  Undefined index: image in C:\OpenServer\domains\openmag.ua\catalog\controller\product\category.php on line 176
+2016-08-17 15:55:38 - PHP Notice:  Undefined index: image in C:\OpenServer\domains\openmag.ua\catalog\controller\product\category.php on line 176
+2016-08-17 15:55:38 - PHP Notice:  Undefined index: image in C:\OpenServer\domains\openmag.ua\catalog\controller\product\category.php on line 176
+2016-08-17 15:55:41 - PHP Notice:  Undefined index: image in C:\OpenServer\domains\openmag.ua\catalog\controller\product\category.php on line 176
+2016-08-17 15:55:41 - PHP Notice:  Undefined index: image in C:\OpenServer\domains\openmag.ua\catalog\controller\product\category.php on line 176
+2016-08-17 15:55:43 - PHP Notice:  Undefined index: image in C:\OpenServer\domains\openmag.ua\catalog\controller\product\category.php on line 176
+2016-08-17 15:55:43 - PHP Notice:  Undefined index: image in C:\OpenServer\domains\openmag.ua\catalog\controller\product\category.php on line 176
+2016-08-17 15:58:50 - PHP Notice:  Undefined variable: categories in C:\OpenServer\domains\openmag.ua\catalog\controller\product\category.php on line 179
+2016-08-17 16:39:09 - PHP Notice:  Undefined index: image in C:\OpenServer\domains\openmag.ua\catalog\controller\product\category.php on line 179
+2016-08-17 16:39:09 - PHP Notice:  Undefined index: image in C:\OpenServer\domains\openmag.ua\catalog\controller\product\category.php on line 179
+2016-08-17 16:39:26 - PHP Notice:  Undefined index: image in C:\OpenServer\domains\openmag.ua\catalog\controller\product\category.php on line 179
+2016-08-17 16:39:26 - PHP Notice:  Undefined index: image in C:\OpenServer\domains\openmag.ua\catalog\controller\product\category.php on line 179
+2016-08-17 16:39:29 - PHP Notice:  Undefined index: image in C:\OpenServer\domains\openmag.ua\catalog\controller\product\category.php on line 179
+2016-08-17 16:39:29 - PHP Notice:  Undefined index: image in C:\OpenServer\domains\openmag.ua\catalog\controller\product\category.php on line 179
+2016-08-17 16:40:05 - PHP Notice:  Undefined variable: categories in C:\OpenServer\domains\openmag.ua\catalog\controller\product\category.php on line 179
+2016-08-17 16:40:05 - PHP Notice:  Undefined variable: categories in C:\OpenServer\domains\openmag.ua\catalog\controller\product\category.php on line 179
+2016-08-17 16:40:11 - PHP Notice:  Undefined variable: categories in C:\OpenServer\domains\openmag.ua\catalog\controller\product\category.php on line 179
+2016-08-17 16:40:11 - PHP Notice:  Undefined variable: categories in C:\OpenServer\domains\openmag.ua\catalog\controller\product\category.php on line 179
+2016-08-17 16:52:17 - PHP Notice:  Undefined variable: categories in C:\OpenServer\domains\openmag.ua\catalog\controller\product\category.php on line 179
+2016-08-17 16:52:17 - PHP Notice:  Undefined variable: categories in C:\OpenServer\domains\openmag.ua\catalog\controller\product\category.php on line 179
+2016-08-17 16:56:15 - PHP Notice:  Undefined variable: categories in C:\OpenServer\domains\openmag.ua\catalog\controller\product\category.php on line 179
+2016-08-17 16:56:15 - PHP Notice:  Undefined variable: categories in C:\OpenServer\domains\openmag.ua\catalog\controller\product\category.php on line 179
+2016-08-17 17:36:05 - PHP Notice:  Undefined variable: cat_thumb in C:\OpenServer\domains\openmag.ua\catalog\view\theme\holshop\template\product\category.tpl on line 38
+2016-08-17 17:36:05 - PHP Notice:  Undefined variable: cat_thumb in C:\OpenServer\domains\openmag.ua\catalog\view\theme\holshop\template\product\category.tpl on line 38
+2016-08-17 17:36:05 - PHP Notice:  Undefined index: href in C:\OpenServer\domains\openmag.ua\catalog\view\theme\holshop\template\product\category.tpl on line 38
+2016-08-17 17:36:05 - PHP Notice:  Undefined index: name in C:\OpenServer\domains\openmag.ua\catalog\view\theme\holshop\template\product\category.tpl on line 38
+2016-08-17 17:36:05 - PHP Notice:  Undefined variable: cat_thumb in C:\OpenServer\domains\openmag.ua\catalog\view\theme\holshop\template\product\category.tpl on line 38
+2016-08-17 17:36:05 - PHP Notice:  Undefined variable: cat_thumb in C:\OpenServer\domains\openmag.ua\catalog\view\theme\holshop\template\product\category.tpl on line 38
+2016-08-17 17:36:05 - PHP Notice:  Undefined variable: cat_thumb in C:\OpenServer\domains\openmag.ua\catalog\view\theme\holshop\template\product\category.tpl on line 38
+2016-08-17 17:36:05 - PHP Notice:  Undefined variable: cat_thumb in C:\OpenServer\domains\openmag.ua\catalog\view\theme\holshop\template\product\category.tpl on line 38
+2016-08-17 17:36:05 - PHP Notice:  Undefined index: href in C:\OpenServer\domains\openmag.ua\catalog\view\theme\holshop\template\product\category.tpl on line 38
+2016-08-17 17:36:05 - PHP Notice:  Undefined index: name in C:\OpenServer\domains\openmag.ua\catalog\view\theme\holshop\template\product\category.tpl on line 38
+2016-08-17 17:36:05 - PHP Notice:  Undefined variable: cat_thumb in C:\OpenServer\domains\openmag.ua\catalog\view\theme\holshop\template\product\category.tpl on line 38
+2016-08-17 17:36:05 - PHP Notice:  Undefined variable: cat_thumb in C:\OpenServer\domains\openmag.ua\catalog\view\theme\holshop\template\product\category.tpl on line 38
+2016-08-17 17:37:46 - PHP Notice:  Undefined variable: cat_thumb in C:\OpenServer\domains\openmag.ua\catalog\view\theme\holshop\template\product\category.tpl on line 38
+2016-08-17 17:37:46 - PHP Notice:  Undefined variable: cat_thumb in C:\OpenServer\domains\openmag.ua\catalog\view\theme\holshop\template\product\category.tpl on line 38
+2016-08-17 17:37:46 - PHP Notice:  Undefined index: image in C:\OpenServer\domains\openmag.ua\catalog\view\theme\holshop\template\product\category.tpl on line 38
+2016-08-17 17:37:46 - PHP Notice:  Undefined index: href in C:\OpenServer\domains\openmag.ua\catalog\view\theme\holshop\template\product\category.tpl on line 38
+2016-08-17 17:37:46 - PHP Notice:  Undefined index: name in C:\OpenServer\domains\openmag.ua\catalog\view\theme\holshop\template\product\category.tpl on line 38
+2016-08-17 17:37:46 - PHP Notice:  Undefined variable: cat_thumb in C:\OpenServer\domains\openmag.ua\catalog\view\theme\holshop\template\product\category.tpl on line 38
+2016-08-17 17:37:46 - PHP Notice:  Undefined variable: cat_thumb in C:\OpenServer\domains\openmag.ua\catalog\view\theme\holshop\template\product\category.tpl on line 38
+2016-08-17 17:37:46 - PHP Notice:  Undefined variable: cat_thumb in C:\OpenServer\domains\openmag.ua\catalog\view\theme\holshop\template\product\category.tpl on line 38
+2016-08-17 17:37:46 - PHP Notice:  Undefined variable: cat_thumb in C:\OpenServer\domains\openmag.ua\catalog\view\theme\holshop\template\product\category.tpl on line 38
+2016-08-17 17:37:46 - PHP Notice:  Undefined index: image in C:\OpenServer\domains\openmag.ua\catalog\view\theme\holshop\template\product\category.tpl on line 38
+2016-08-17 17:37:46 - PHP Notice:  Undefined index: href in C:\OpenServer\domains\openmag.ua\catalog\view\theme\holshop\template\product\category.tpl on line 38
+2016-08-17 17:37:46 - PHP Notice:  Undefined index: name in C:\OpenServer\domains\openmag.ua\catalog\view\theme\holshop\template\product\category.tpl on line 38
+2016-08-17 17:37:46 - PHP Notice:  Undefined variable: cat_thumb in C:\OpenServer\domains\openmag.ua\catalog\view\theme\holshop\template\product\category.tpl on line 38
+2016-08-17 17:37:46 - PHP Notice:  Undefined variable: cat_thumb in C:\OpenServer\domains\openmag.ua\catalog\view\theme\holshop\template\product\category.tpl on line 38
+2016-08-17 17:40:03 - PHP Notice:  Undefined variable: cat_thumb in C:\OpenServer\domains\openmag.ua\catalog\view\theme\holshop\template\product\category.tpl on line 38
+2016-08-17 17:40:03 - PHP Notice:  Undefined index: image in C:\OpenServer\domains\openmag.ua\catalog\view\theme\holshop\template\product\category.tpl on line 38
+2016-08-17 17:40:03 - PHP Notice:  Undefined index: image in C:\OpenServer\domains\openmag.ua\catalog\view\theme\holshop\template\product\category.tpl on line 38
+2016-08-17 17:40:03 - PHP Notice:  Undefined index: href in C:\OpenServer\domains\openmag.ua\catalog\view\theme\holshop\template\product\category.tpl on line 38
+2016-08-17 17:40:03 - PHP Notice:  Undefined index: name in C:\OpenServer\domains\openmag.ua\catalog\view\theme\holshop\template\product\category.tpl on line 38
+2016-08-17 17:40:03 - PHP Notice:  Undefined variable: cat_thumb in C:\OpenServer\domains\openmag.ua\catalog\view\theme\holshop\template\product\category.tpl on line 38
+2016-08-17 17:40:03 - PHP Notice:  Undefined variable: cat_thumb in C:\OpenServer\domains\openmag.ua\catalog\view\theme\holshop\template\product\category.tpl on line 38
+2016-08-17 17:40:03 - PHP Notice:  Undefined index: image in C:\OpenServer\domains\openmag.ua\catalog\view\theme\holshop\template\product\category.tpl on line 38
+2016-08-17 17:40:03 - PHP Notice:  Undefined index: image in C:\OpenServer\domains\openmag.ua\catalog\view\theme\holshop\template\product\category.tpl on line 38
+2016-08-17 17:40:03 - PHP Notice:  Undefined index: href in C:\OpenServer\domains\openmag.ua\catalog\view\theme\holshop\template\product\category.tpl on line 38
+2016-08-17 17:40:03 - PHP Notice:  Undefined index: name in C:\OpenServer\domains\openmag.ua\catalog\view\theme\holshop\template\product\category.tpl on line 38
+2016-08-17 17:40:03 - PHP Notice:  Undefined variable: cat_thumb in C:\OpenServer\domains\openmag.ua\catalog\view\theme\holshop\template\product\category.tpl on line 38
+2016-08-17 17:40:43 - PHP Notice:  Undefined variable: cat_thumb in C:\OpenServer\domains\openmag.ua\catalog\view\theme\holshop\template\product\category.tpl on line 38
+2016-08-17 17:40:43 - PHP Notice:  Undefined index: image in C:\OpenServer\domains\openmag.ua\catalog\view\theme\holshop\template\product\category.tpl on line 38
+2016-08-17 17:40:43 - PHP Notice:  Undefined index: image in C:\OpenServer\domains\openmag.ua\catalog\view\theme\holshop\template\product\category.tpl on line 38
+2016-08-17 17:40:43 - PHP Notice:  Undefined index: href in C:\OpenServer\domains\openmag.ua\catalog\view\theme\holshop\template\product\category.tpl on line 38
+2016-08-17 17:40:43 - PHP Notice:  Undefined index: name in C:\OpenServer\domains\openmag.ua\catalog\view\theme\holshop\template\product\category.tpl on line 38
+2016-08-17 17:40:43 - PHP Notice:  Undefined variable: cat_thumb in C:\OpenServer\domains\openmag.ua\catalog\view\theme\holshop\template\product\category.tpl on line 38
+2016-08-17 17:40:43 - PHP Notice:  Undefined variable: cat_thumb in C:\OpenServer\domains\openmag.ua\catalog\view\theme\holshop\template\product\category.tpl on line 38
+2016-08-17 17:40:43 - PHP Notice:  Undefined index: image in C:\OpenServer\domains\openmag.ua\catalog\view\theme\holshop\template\product\category.tpl on line 38
+2016-08-17 17:40:43 - PHP Notice:  Undefined index: image in C:\OpenServer\domains\openmag.ua\catalog\view\theme\holshop\template\product\category.tpl on line 38
+2016-08-17 17:40:43 - PHP Notice:  Undefined index: href in C:\OpenServer\domains\openmag.ua\catalog\view\theme\holshop\template\product\category.tpl on line 38
+2016-08-17 17:40:43 - PHP Notice:  Undefined index: name in C:\OpenServer\domains\openmag.ua\catalog\view\theme\holshop\template\product\category.tpl on line 38
+2016-08-17 17:40:43 - PHP Notice:  Undefined variable: cat_thumb in C:\OpenServer\domains\openmag.ua\catalog\view\theme\holshop\template\product\category.tpl on line 38
+2016-08-17 17:41:10 - PHP Notice:  Undefined variable: cat_thumb in C:\OpenServer\domains\openmag.ua\catalog\view\theme\holshop\template\product\category.tpl on line 38
+2016-08-17 17:41:10 - PHP Notice:  Undefined index: href in C:\OpenServer\domains\openmag.ua\catalog\view\theme\holshop\template\product\category.tpl on line 38
+2016-08-17 17:41:10 - PHP Notice:  Undefined index: name in C:\OpenServer\domains\openmag.ua\catalog\view\theme\holshop\template\product\category.tpl on line 38
+2016-08-17 17:41:10 - PHP Notice:  Undefined variable: cat_thumb in C:\OpenServer\domains\openmag.ua\catalog\view\theme\holshop\template\product\category.tpl on line 38
+2016-08-17 17:41:10 - PHP Notice:  Undefined variable: cat_thumb in C:\OpenServer\domains\openmag.ua\catalog\view\theme\holshop\template\product\category.tpl on line 38
+2016-08-17 17:41:10 - PHP Notice:  Undefined index: href in C:\OpenServer\domains\openmag.ua\catalog\view\theme\holshop\template\product\category.tpl on line 38
+2016-08-17 17:41:10 - PHP Notice:  Undefined index: name in C:\OpenServer\domains\openmag.ua\catalog\view\theme\holshop\template\product\category.tpl on line 38
+2016-08-17 17:41:10 - PHP Notice:  Undefined variable: cat_thumb in C:\OpenServer\domains\openmag.ua\catalog\view\theme\holshop\template\product\category.tpl on line 38
+2016-08-17 17:41:40 - PHP Notice:  Undefined variable: cat_thumb in C:\OpenServer\domains\openmag.ua\catalog\view\theme\holshop\template\product\category.tpl on line 38
+2016-08-17 17:41:40 - PHP Notice:  Undefined index: href in C:\OpenServer\domains\openmag.ua\catalog\view\theme\holshop\template\product\category.tpl on line 38
+2016-08-17 17:41:40 - PHP Notice:  Undefined index: name in C:\OpenServer\domains\openmag.ua\catalog\view\theme\holshop\template\product\category.tpl on line 38
+2016-08-17 17:41:40 - PHP Notice:  Undefined variable: cat_thumb in C:\OpenServer\domains\openmag.ua\catalog\view\theme\holshop\template\product\category.tpl on line 38
+2016-08-17 17:41:40 - PHP Notice:  Undefined variable: cat_thumb in C:\OpenServer\domains\openmag.ua\catalog\view\theme\holshop\template\product\category.tpl on line 38
+2016-08-17 17:41:40 - PHP Notice:  Undefined index: href in C:\OpenServer\domains\openmag.ua\catalog\view\theme\holshop\template\product\category.tpl on line 38
+2016-08-17 17:41:40 - PHP Notice:  Undefined index: name in C:\OpenServer\domains\openmag.ua\catalog\view\theme\holshop\template\product\category.tpl on line 38
+2016-08-17 17:41:40 - PHP Notice:  Undefined variable: cat_thumb in C:\OpenServer\domains\openmag.ua\catalog\view\theme\holshop\template\product\category.tpl on line 38
+2016-08-17 17:42:33 - PHP Notice:  Undefined index: href in C:\OpenServer\domains\openmag.ua\catalog\view\theme\holshop\template\product\category.tpl on line 38
+2016-08-17 17:42:33 - PHP Notice:  Undefined index: name in C:\OpenServer\domains\openmag.ua\catalog\view\theme\holshop\template\product\category.tpl on line 38
+2016-08-17 17:42:33 - PHP Notice:  Undefined index: href in C:\OpenServer\domains\openmag.ua\catalog\view\theme\holshop\template\product\category.tpl on line 38
+2016-08-17 17:42:33 - PHP Notice:  Undefined index: name in C:\OpenServer\domains\openmag.ua\catalog\view\theme\holshop\template\product\category.tpl on line 38
+2016-08-17 17:43:03 - PHP Notice:  Undefined index: href in C:\OpenServer\domains\openmag.ua\catalog\view\theme\holshop\template\product\category.tpl on line 38
+2016-08-17 17:43:03 - PHP Notice:  Undefined index: name in C:\OpenServer\domains\openmag.ua\catalog\view\theme\holshop\template\product\category.tpl on line 38
+2016-08-17 17:43:03 - PHP Notice:  Undefined index: href in C:\OpenServer\domains\openmag.ua\catalog\view\theme\holshop\template\product\category.tpl on line 38
+2016-08-17 17:43:03 - PHP Notice:  Undefined index: name in C:\OpenServer\domains\openmag.ua\catalog\view\theme\holshop\template\product\category.tpl on line 38
+2016-08-17 17:43:18 - PHP Notice:  Undefined index: href in C:\OpenServer\domains\openmag.ua\catalog\view\theme\holshop\template\product\category.tpl on line 38
+2016-08-17 17:43:18 - PHP Notice:  Undefined index: name in C:\OpenServer\domains\openmag.ua\catalog\view\theme\holshop\template\product\category.tpl on line 38
+2016-08-17 17:43:18 - PHP Notice:  Undefined index: href in C:\OpenServer\domains\openmag.ua\catalog\view\theme\holshop\template\product\category.tpl on line 38
+2016-08-17 17:43:18 - PHP Notice:  Undefined index: name in C:\OpenServer\domains\openmag.ua\catalog\view\theme\holshop\template\product\category.tpl on line 38
+2016-08-17 17:43:46 - PHP Notice:  Undefined index: image in C:\OpenServer\domains\openmag.ua\catalog\view\theme\holshop\template\product\category.tpl on line 38
+2016-08-17 17:43:46 - PHP Notice:  Undefined index: href in C:\OpenServer\domains\openmag.ua\catalog\view\theme\holshop\template\product\category.tpl on line 38
+2016-08-17 17:43:46 - PHP Notice:  Undefined index: name in C:\OpenServer\domains\openmag.ua\catalog\view\theme\holshop\template\product\category.tpl on line 38
+2016-08-17 17:43:46 - PHP Notice:  Undefined index: image in C:\OpenServer\domains\openmag.ua\catalog\view\theme\holshop\template\product\category.tpl on line 38
+2016-08-17 17:43:46 - PHP Notice:  Undefined index: href in C:\OpenServer\domains\openmag.ua\catalog\view\theme\holshop\template\product\category.tpl on line 38
+2016-08-17 17:43:46 - PHP Notice:  Undefined index: name in C:\OpenServer\domains\openmag.ua\catalog\view\theme\holshop\template\product\category.tpl on line 38
+2016-08-17 17:44:08 - PHP Notice:  Undefined index: image in C:\OpenServer\domains\openmag.ua\catalog\view\theme\holshop\template\product\category.tpl on line 38
+2016-08-17 17:44:08 - PHP Notice:  Undefined index: href in C:\OpenServer\domains\openmag.ua\catalog\view\theme\holshop\template\product\category.tpl on line 38
+2016-08-17 17:44:08 - PHP Notice:  Undefined index: name in C:\OpenServer\domains\openmag.ua\catalog\view\theme\holshop\template\product\category.tpl on line 38
+2016-08-17 17:44:08 - PHP Notice:  Undefined index: image in C:\OpenServer\domains\openmag.ua\catalog\view\theme\holshop\template\product\category.tpl on line 38
+2016-08-17 17:44:08 - PHP Notice:  Undefined index: href in C:\OpenServer\domains\openmag.ua\catalog\view\theme\holshop\template\product\category.tpl on line 38
+2016-08-17 17:44:08 - PHP Notice:  Undefined index: name in C:\OpenServer\domains\openmag.ua\catalog\view\theme\holshop\template\product\category.tpl on line 38
+2016-08-17 17:44:38 - PHP Notice:  Undefined index: image in C:\OpenServer\domains\openmag.ua\catalog\view\theme\holshop\template\product\category.tpl on line 38
+2016-08-17 17:44:38 - PHP Notice:  Undefined index: href in C:\OpenServer\domains\openmag.ua\catalog\view\theme\holshop\template\product\category.tpl on line 38
+2016-08-17 17:44:38 - PHP Notice:  Undefined index: name in C:\OpenServer\domains\openmag.ua\catalog\view\theme\holshop\template\product\category.tpl on line 38
+2016-08-17 17:44:38 - PHP Notice:  Undefined index: image in C:\OpenServer\domains\openmag.ua\catalog\view\theme\holshop\template\product\category.tpl on line 38
+2016-08-17 17:44:38 - PHP Notice:  Undefined index: href in C:\OpenServer\domains\openmag.ua\catalog\view\theme\holshop\template\product\category.tpl on line 38
+2016-08-17 17:44:38 - PHP Notice:  Undefined index: name in C:\OpenServer\domains\openmag.ua\catalog\view\theme\holshop\template\product\category.tpl on line 38
+2016-08-17 17:46:46 - PHP Notice:  Undefined index: href in C:\OpenServer\domains\openmag.ua\catalog\view\theme\holshop\template\product\category.tpl on line 38
+2016-08-17 17:46:46 - PHP Notice:  Undefined index: name in C:\OpenServer\domains\openmag.ua\catalog\view\theme\holshop\template\product\category.tpl on line 38
+2016-08-17 17:46:46 - PHP Notice:  Undefined index: href in C:\OpenServer\domains\openmag.ua\catalog\view\theme\holshop\template\product\category.tpl on line 38
+2016-08-17 17:46:46 - PHP Notice:  Undefined index: name in C:\OpenServer\domains\openmag.ua\catalog\view\theme\holshop\template\product\category.tpl on line 38
+2016-08-17 17:47:08 - PHP Notice:  Undefined index: href in C:\OpenServer\domains\openmag.ua\catalog\view\theme\holshop\template\product\category.tpl on line 38
+2016-08-17 17:47:08 - PHP Notice:  Undefined index: name in C:\OpenServer\domains\openmag.ua\catalog\view\theme\holshop\template\product\category.tpl on line 38
+2016-08-17 17:47:08 - PHP Notice:  Undefined index: href in C:\OpenServer\domains\openmag.ua\catalog\view\theme\holshop\template\product\category.tpl on line 38
+2016-08-17 17:47:08 - PHP Notice:  Undefined index: name in C:\OpenServer\domains\openmag.ua\catalog\view\theme\holshop\template\product\category.tpl on line 38
+2016-08-17 17:47:13 - PHP Notice:  Undefined index: image in C:\OpenServer\domains\openmag.ua\catalog\view\theme\holshop\template\product\category.tpl on line 38
+2016-08-17 17:47:13 - PHP Notice:  Undefined index: href in C:\OpenServer\domains\openmag.ua\catalog\view\theme\holshop\template\product\category.tpl on line 38
+2016-08-17 17:47:13 - PHP Notice:  Undefined index: name in C:\OpenServer\domains\openmag.ua\catalog\view\theme\holshop\template\product\category.tpl on line 38
+2016-08-17 17:47:13 - PHP Notice:  Undefined index: image in C:\OpenServer\domains\openmag.ua\catalog\view\theme\holshop\template\product\category.tpl on line 38
+2016-08-17 17:47:13 - PHP Notice:  Undefined index: href in C:\OpenServer\domains\openmag.ua\catalog\view\theme\holshop\template\product\category.tpl on line 38
+2016-08-17 17:47:13 - PHP Notice:  Undefined index: name in C:\OpenServer\domains\openmag.ua\catalog\view\theme\holshop\template\product\category.tpl on line 38
+2016-08-17 17:47:31 - PHP Notice:  Undefined index: image in C:\OpenServer\domains\openmag.ua\catalog\view\theme\holshop\template\product\category.tpl on line 38
+2016-08-17 17:47:31 - PHP Notice:  Undefined index: href in C:\OpenServer\domains\openmag.ua\catalog\view\theme\holshop\template\product\category.tpl on line 38
+2016-08-17 17:47:31 - PHP Notice:  Undefined index: image in C:\OpenServer\domains\openmag.ua\catalog\view\theme\holshop\template\product\category.tpl on line 38
+2016-08-17 17:47:31 - PHP Notice:  Undefined index: href in C:\OpenServer\domains\openmag.ua\catalog\view\theme\holshop\template\product\category.tpl on line 38
+2016-08-17 17:47:46 - PHP Notice:  Undefined index: image in C:\OpenServer\domains\openmag.ua\catalog\view\theme\holshop\template\product\category.tpl on line 38
+2016-08-17 17:47:46 - PHP Notice:  Undefined index: href in C:\OpenServer\domains\openmag.ua\catalog\view\theme\holshop\template\product\category.tpl on line 38
+2016-08-17 17:47:46 - PHP Notice:  Undefined index: name in C:\OpenServer\domains\openmag.ua\catalog\view\theme\holshop\template\product\category.tpl on line 38
+2016-08-17 17:47:46 - PHP Notice:  Undefined index: image in C:\OpenServer\domains\openmag.ua\catalog\view\theme\holshop\template\product\category.tpl on line 38
+2016-08-17 17:47:46 - PHP Notice:  Undefined index: href in C:\OpenServer\domains\openmag.ua\catalog\view\theme\holshop\template\product\category.tpl on line 38
+2016-08-17 17:47:46 - PHP Notice:  Undefined index: name in C:\OpenServer\domains\openmag.ua\catalog\view\theme\holshop\template\product\category.tpl on line 38
+2016-08-17 17:48:34 - PHP Notice:  Undefined index: image in C:\OpenServer\domains\openmag.ua\catalog\view\theme\holshop\template\product\category.tpl on line 38
+2016-08-17 17:48:34 - PHP Notice:  Undefined index: href in C:\OpenServer\domains\openmag.ua\catalog\view\theme\holshop\template\product\category.tpl on line 38
+2016-08-17 17:48:34 - PHP Notice:  Undefined index: name in C:\OpenServer\domains\openmag.ua\catalog\view\theme\holshop\template\product\category.tpl on line 38
+2016-08-17 17:48:34 - PHP Notice:  Undefined index: image in C:\OpenServer\domains\openmag.ua\catalog\view\theme\holshop\template\product\category.tpl on line 38
+2016-08-17 17:48:34 - PHP Notice:  Undefined index: href in C:\OpenServer\domains\openmag.ua\catalog\view\theme\holshop\template\product\category.tpl on line 38
+2016-08-17 17:48:34 - PHP Notice:  Undefined index: name in C:\OpenServer\domains\openmag.ua\catalog\view\theme\holshop\template\product\category.tpl on line 38
+2016-08-17 18:11:42 - PHP Notice:  Undefined index: image in C:\OpenServer\domains\openmag.ua\catalog\view\theme\holshop\template\product\category.tpl on line 38
+2016-08-17 18:11:42 - PHP Notice:  Undefined index: image in C:\OpenServer\domains\openmag.ua\catalog\view\theme\holshop\template\product\category.tpl on line 38
+2016-08-17 18:12:47 - PHP Notice:  Undefined index: image in C:\OpenServer\domains\openmag.ua\catalog\view\theme\holshop\template\product\category.tpl on line 38
+2016-08-17 18:12:47 - PHP Notice:  Undefined index: image in C:\OpenServer\domains\openmag.ua\catalog\view\theme\holshop\template\product\category.tpl on line 38
+2016-08-17 18:18:24 - PHP Notice:  Undefined index: image in C:\OpenServer\domains\openmag.ua\catalog\view\theme\holshop\template\product\category.tpl on line 38
+2016-08-17 18:18:24 - PHP Notice:  Undefined index: image in C:\OpenServer\domains\openmag.ua\catalog\view\theme\holshop\template\product\category.tpl on line 38
+2016-08-17 18:20:45 - PHP Notice:  Undefined index: image in C:\OpenServer\domains\openmag.ua\catalog\view\theme\holshop\template\product\category.tpl on line 38
+2016-08-17 18:20:45 - PHP Notice:  Undefined index: image in C:\OpenServer\domains\openmag.ua\catalog\view\theme\holshop\template\product\category.tpl on line 38
+2016-08-17 18:20:45 - PHP Notice:  Undefined index: image in C:\OpenServer\domains\openmag.ua\catalog\view\theme\holshop\template\product\category.tpl on line 38
+2016-08-17 18:20:45 - PHP Notice:  Undefined index: image in C:\OpenServer\domains\openmag.ua\catalog\view\theme\holshop\template\product\category.tpl on line 38
+2016-08-17 18:23:52 - PHP Notice:  Undefined variable: cat_thumb in C:\OpenServer\domains\openmag.ua\catalog\view\theme\holshop\template\product\category.tpl on line 38
+2016-08-17 18:23:52 - PHP Notice:  Undefined variable: cat_thumb in C:\OpenServer\domains\openmag.ua\catalog\view\theme\holshop\template\product\category.tpl on line 38
+2016-08-17 18:23:52 - PHP Notice:  Undefined variable: cat_thumb in C:\OpenServer\domains\openmag.ua\catalog\view\theme\holshop\template\product\category.tpl on line 38
+2016-08-17 18:25:02 - PHP Notice:  Undefined variable: cat_thumb in C:\OpenServer\domains\openmag.ua\catalog\view\theme\holshop\template\product\category.tpl on line 38
+2016-08-17 18:25:02 - PHP Notice:  Undefined variable: cat_thumb in C:\OpenServer\domains\openmag.ua\catalog\view\theme\holshop\template\product\category.tpl on line 38
+2016-08-17 23:56:00 - PHP Warning:  unlink(C:/OpenServer/domains/openmag.ua/system/storage/cache/cache.category.seopath.1471454581) [<a href='function.unlink'>function.unlink</a>]: No such file or directory in C:\OpenServer\domains\openmag.ua\system\library\cache\file.php on line 17
+2016-08-17 23:56:02 - PHP Warning:  session_start() [<a href='function.session-start'>function.session-start</a>]: Cannot send session cache limiter - headers already sent (output started at C:\OpenServer\domains\openmag.ua\index.php:99) in C:\OpenServer\domains\openmag.ua\system\library\session.php on line 21

@@ -29,14 +29,44 @@ class ModelAccountCustomer extends Model {
 
 		$message = sprintf($this->language->get('text_welcome'), html_entity_decode($this->config->get('config_name'), ENT_QUOTES, 'UTF-8')) . "\n\n";
 
+				
+				$this->load->model('setting/setting');			
+				$emailverification = $this->model_setting_setting->getSetting('emailverification', $this->config->get('config_store_id'));
+				$skip_verification = false;	
+				if(isset($this->session->data['skipverification']) && $this->session->data['skipverification'] == true)
+				{
+					$skip_verification = true;
+					unset($this->session->data['skipverification']);
+				}
+				if(!$skip_verification && $emailverification['emailverification']['enabled'] == 1){
+					$this->load->model('module/emailverification');
+					if($this->model_module_emailverification->validateCustomerGroup($customer_group_id)){
+						$this->model_module_emailverification->sendVerificationEmail($customer_id);
+					}
+				}
+			
+
 		if (!$customer_group_info['approval']) {
-			$message .= $this->language->get('text_login') . "\n";
+			
+				
+				if(!$skip_verification && $emailverification['emailverification']['enabled'] == 1){
+                    $message .= 'Your account has now been created. Please follow the verification link we have just sent you in order to get access to other services including reviewing past orders, printing invoices and editing your account information.' . "\n";
+                } else {
+                    $message .= $this->language->get('text_login') . "\n";
+                }
+			
 		} else {
 			$message .= $this->language->get('text_approval') . "\n";
 		}
 
+
+				if($emailverification['emailverification']['enabled'] != 1){
+			
 		$message .= $this->url->link('account/login', '', 'SSL') . "\n\n";
 		$message .= $this->language->get('text_services') . "\n\n";
+
+				}
+			
 		$message .= $this->language->get('text_thanks') . "\n";
 		$message .= html_entity_decode($this->config->get('config_name'), ENT_QUOTES, 'UTF-8');
 
@@ -56,23 +86,6 @@ class ModelAccountCustomer extends Model {
 		$mail->setText($message);
 		$mail->send();
 
-
-				
-				$this->load->model('setting/setting');			
-				$emailverification = $this->model_setting_setting->getSetting('emailverification', $this->config->get('config_store_id'));
-				$skip_verification = false;	
-				if(isset($this->session->data['skipverification']) && $this->session->data['skipverification'] == true)
-				{
-					$skip_verification = true;
-					unset($this->session->data['skipverification']);
-				}
-				if(!$skip_verification && $emailverification['emailverification']['enabled'] == 1){
-					$this->load->model('module/emailverification');
-					if($this->model_module_emailverification->validateCustomerGroup($customer_group_id)){
-						$this->model_module_emailverification->sendVerificationEmail($customer_id);
-					}
-				}
-			
 		// Send to main admin email if new account email is enabled
 		if ($this->config->get('config_account_mail')) {
 			$message  = $this->language->get('text_signup') . "\n\n";

@@ -29,13 +29,13 @@
       <hr>
       <?php } ?>
       <?php if ($categories) { ?>
-      <h3><?php echo $text_refine; ?></h3>
-      <?php if (count($categories) <= 5) { ?>
+      
+      <?php if (count($categories) <= 2) { ?>
       <div class="row">
         <div class="col-sm-3">
           <ul>
             <?php foreach ($categories as $category) { ?>
-            <li><a href="<?php echo $category['href']; ?>"><?php echo $category['name']; ?></a></li>
+            <li><a href="<?php echo $category['href']; ?>"><?php echo $category['name']; ?><img src="<?php echo $category['image']?>"></a></li>
             <?php } ?>
           </ul>
         </div>
@@ -46,7 +46,7 @@
         <div class="col-sm-3">
           <ul>
             <?php foreach ($categories as $category) { ?>
-            <li><a href="<?php echo $category['href']; ?>"><?php echo $category['name']; ?></a></li>
+            <li><a href="<?php echo $category['href']; ?>"><?php echo $category['name']; ?><img src="<?php echo $category['image']?>"></a></li>
             <?php } ?>
           </ul>
         </div>

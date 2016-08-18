@@ -1,0 +1,130 @@
+<modification>
+	<name>EmailVerification</name>
+	<version>1.2.2</version>
+	<link>http://isenselabs.com</link>
+	<author>iSenseLabs</author>
+	<code>isenselabs_emailverification</code>
+  
+  	<file path="catalog/model/account/customer.php">
+		<operation>
+			<search><![CDATA[if ($this->config->get('config_account_mail')) {]]></search>
+			<add position="before" offset="1"><![CDATA[
+				
+				$this->load->model('setting/setting');			
+				$emailverification = $this->model_setting_setting->getSetting('emailverification', $this->config->get('config_store_id'));
+				$skip_verification = false;	
+				if(isset($this->session->data['skipverification']) && $this->session->data['skipverification'] == true)
+				{
+					$skip_verification = true;
+					unset($this->session->data['skipverification']);
+				}
+				if(!$skip_verification && $emailverification['emailverification']['enabled'] == 1){
+					$this->load->model('module/emailverification');
+					if($this->model_module_emailverification->validateCustomerGroup($customer_group_id)){
+						$this->model_module_emailverification->sendVerificationEmail($customer_id);
+					}
+				}
+			]]></add>
+		</operation>
+	</file>	
+
+	<file path="catalog/view/theme/*/template/account/login.tpl">
+		<operation>
+			<search><![CDATA[ <div class="row"><?php echo $column_left; ?>]]></search>
+			<add position="before"><![CDATA[
+				<?php if ($error_warning_verified) { ?>
+  				<div class="alert alert-danger"><i class="fa fa-exclamation-circle"></i> <?php echo $error_warning_verified; ?></div>
+  				<?php } ?>
+			]]></add>
+		</operation>
+	</file>
+
+	<file path="catalog/controller/account/success.php">
+		<operation>
+			<search><![CDATA[$data['column_left'] = $this->load->controller('common/column_left');]]></search>
+			<add position="before"><![CDATA[
+				$this->load->model('setting/setting');
+				$emailverification = $this->model_setting_setting->getSetting('emailverification');
+				if($emailverification['emailverification']['enabled'] == 1){
+				$this->load->model('module/emailverification');
+				$this->load->model('account/customer');
+				$this->load->language('module/emailverification');
+			
+				if ($customer_group_info && !$customer_group_info['approval']) {
+				$data['text_message'] = sprintf($this->language->get('text_message_after_registration'), $this->url->link('information/contact'));
+				} else {
+				$data['text_message'] = sprintf($this->language->get('text_approval_after_registration'), $this->config->get('config_name'), $this->url->link('information/contact'));
+				}
+			
+				if(!$this->model_module_emailverification->isCustomerVerified($this->customer->getId(),$this->config->get('config_store_id'))){
+				$this->customer->logout();
+				$data['continue'] = $this->url->link('account/login', '', 'SSL');
+					}
+				}
+			]]></add>
+		</operation>
+	</file>
+
+	<file path="catalog/controller/account/login.php">
+		<operation>
+			<search><![CDATA[if ($customer_info && !$customer_info['approved']) {]]></search>
+			<add position="before"><![CDATA[
+				if($customer_info && !$customer_info['verified']){
+				$this->language->load('module/emailverification');
+				$this->error['warning'] = $this->language->get('error_verified');			
+				}
+			]]></add>
+		</operation>
+		<operation>
+			<search><![CDATA[$data['button_login'] = $this->language->get('button_login');]]></search>
+			<add position="after"><![CDATA[
+				if (isset($this->error['warning_verified'])) {
+				$data['error_warning_verified'] = $this->error['warning_verified'];
+				} else {
+				$data['error_warning_verified'] = '';
+				}
+			]]></add>
+		</operation>
+	</file>
+
+	
+	<file path="catalog/controller/account/facebooklogin.php">
+		<operation>
+			<search><![CDATA[$this->model_account_customer->addCustomer($newUserData);]]></search>
+			<add position="before"><![CDATA[$this->session->data['skipverification'] = true;
+			]]></add>
+		</operation>
+	</file>
+
+	<file path="catalog/controller/account/twitterlogin.php">		
+		<operation>
+			<search><![CDATA[$this->model_account_customer->addCustomer($newUserData);]]></search>
+			<add position="before"><![CDATA[$this->session->data['skipverification'] = true;
+			]]></add>
+		</operation>
+	</file>
+
+	<file path="catalog/controller/account/googlelogin.php">
+		<operation>
+			<search><![CDATA[$this->model_account_customer->addCustomer($newUserData);]]></search>
+			<add position="before"><![CDATA[$this->session->data['skipverification'] = true;
+			]]></add>
+		</operation>
+	</file>
+
+	<file path="catalog/controller/account/instagramlogin.php">
+		<operation>
+			<search><![CDATA[$this->model_account_customer->addCustomer($newUserData);]]></search>
+			<add position="before"><![CDATA[$this->session->data['skipverification'] = true;
+			]]></add>
+		</operation>
+	</file>
+
+	<file path="catalog/controller/account/linkedinlogin.php">
+		<operation>
+			<search><![CDATA[$this->model_account_customer->addCustomer($newUserData);]]></search>
+			<add position="before"><![CDATA[$this->session->data['skipverification'] = true;
+			]]></add>
+		</operation>
+	</file>
+</modification>
